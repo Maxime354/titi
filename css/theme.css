@@ -3732,6 +3732,10 @@ body {
   background: rgba(6, 128, 171, 0.13);
 }
 
+@media screen {
+
+}
+
 .wave {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
   position: absolute;
@@ -3862,6 +3866,9 @@ body {
   -webkit-animation: mover 2s infinite  alternate;
   animation: mover 2s infinite  alternate;
 }
+
+
+
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
@@ -4043,10 +4050,7 @@ a:hover .liquid {
   }
 }
 
-body {
-  --animation-speed: 4s;
-  background-color: rgb(37, 29, 24);
-}
+
 
 body.pause {
   --animation-speed: 0;
@@ -4116,7 +4120,7 @@ body.pause {
   animation: linear sunrise infinite var(--animation-speed);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 368px) {
   .sky {
     max-height: 840px;
   }
@@ -4124,6 +4128,22 @@ body.pause {
     width: 700px;
     height: 700px;
     margin: 150px auto;
+    --animation-speed: 68s;
+  }
+  .sky__midnight {
+    --animation-speed: 68s;
+  }
+  .sky__dawn {
+    --animation-speed: 68s;
+  }
+  .sky__dusk {
+    --animation-speed: 68s;
+  }
+  .sky__noon {
+    --animation-speed: 68s;
+  }
+  .sky__phase {
+    --animation-speed: 68s;
   }
 }
 
@@ -4131,6 +4151,8 @@ body.pause {
   .orbit {
     width: 800px;
     height: 800px;
+    --animation-speed: 68s;
+
   }
 }
 

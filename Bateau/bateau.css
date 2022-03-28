@@ -1,0 +1,301 @@
+html, body { height: 20%; width: 100%}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    font-family: "Open Sans", Arial;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+    overflow-x: hidden;
+}
+main {
+    background: #EEE;
+    width: available;
+    margin: auto;
+    padding: 10px 0;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 13px;
+}
+input {
+    display: none;
+    visibility: hidden;
+}
+label {
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    color: #666;
+}
+label:hover {
+    color: #000;
+}
+label::before {
+    font-family: Consolas, monaco, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    content: "+";
+    vertical-align: text-top;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+.carousel {
+    height: 350px;
+    overflow: hidden;
+    transition: height 0.5s;
+    color: #FFF;
+}
+.carousel figure{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 200%;
+    margin: 0;
+    left: 0;
+    animation: 29s slideCaroussel infinite;
+}
+.carousel figure img{
+    width: 20%;
+    float: right;
+    object-position: inherit;
+}
+
+
+
+@keyframes slideCaroussel {
+    0% {
+        left: 0;
+    }
+    33%{
+        left: -100%;
+    }
+    66%{
+        left: -200%;
+    }
+}
+section {
+    padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+    height: 250px;
+}
+#toggle:checked ~ label::before {
+    content: "-";
+}
+
+#logo {
+    width: 455px;
+    height: 110px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    position: relative;
+    padding: 10px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+a span {
+    position: relative;
+    color: #fff;
+    fot-size: 20px;
+    font-family: "Academy Engraved LET";
+    letter-spacing: 8px;
+    z-index: 1;
+}
+a .liquid {
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 119, 255, 0.6);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: 0.5s;
+}
+a .liquid::after, a .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+}
+a .liquid::before {
+    border-radius: 45%;
+    background: rgba(0, 88, 252, 0.24);
+    animation: animate 5s linear infinite;
+}
+a .liquid::after {
+    border-radius: 40%;
+    background: rgba(248, 245, 245, 0.5);
+    animation: animate 10s linear infinite;
+}
+a:hover .liquid {
+    top: -120px;
+}
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+
+.nav-btn {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: inline-flex;
+    margin-right: 90px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    margin-right: 90px;
+}
+
+@media all and (max-width: 767px){
+    .buttons {
+        position: relative;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: -300px;
+    }
+}
+
+.projet{
+    height: 350px;
+    width: 30px;
+}
+
+p {
+    font-family: -apple-system;
+}
+
+h2 h3 {
+    font-family: Damascus;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+header {
+    height: 200vh;
+}
+
+.container {
+    /* hide fixed overflow contents */
+    clip: rect(0, auto, auto, 0);
+
+    /* does not work if overflow = visible */
+    overflow: hidden;
+
+    /* only works with absolute positioning */
+    position: absolute;
+
+    /* Make sure containers are full-width and height */
+    height: 100vh;
+    left: 0;
+    width: 100%;
+
+
+    /* safari hack */
+    -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+}
+
+.container_solid {
+    background: white;
+
+    /* position this container at the top of its parent element */
+
+}
+
+.title_wrapper {
+    position: fixed;
+    display: block;
+    margin: auto;
+    width: 100%;
+    /* center the text wrapper vertically */
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+    text-align: center;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.container_solid .title_wrapper h1 {
+    /* the text background */
+    background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
+    background-size: 100vw auto;
+    background-position: center;
+
+    /* clip the text is possible */
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    /* fallback text color */
+    color: black;
+}
+
+.container_image {
+    /* Grab a free image from unsplash */
+    background-image: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    background-size:100vw auto;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* position the second container below the first container */
+    top: 100vh;
+}
+
+.container_image .title_wrapper h1 {
+    color: white;
+    right: 0;
+}
+
+section {
+    min-height: 100vh;
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+}
+
+section h2 {
+    font-family: 'Fraunces', serif;
+}
+
+section p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
