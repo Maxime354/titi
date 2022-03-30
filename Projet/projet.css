@@ -33,7 +33,7 @@ em {
     position: fixed;
     color: #fff;
     width: 100%;
-    height: 100%;
+    height: 120%;
     top: 0;
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@ em {
 #logo {
     width: 455px;
     height: 110px;
-
+    margin-top: 25px;
 }
 
 * {
@@ -159,9 +159,11 @@ a:hover .liquid {
     }
 }
 
+
+
 .nav-btn {
+
     top: 0;
-    margin-top: 20px;
     display: inline-flex;
     margin-right: 90px;
     position: fixed;
@@ -185,26 +187,46 @@ a:hover .liquid {
         display: inline;
         gap: 10px 20px;
     }
+    .nav-btn{
+        background-image: url("../img/day.png");
+        height: 270px;
+        top: 0;
+
+    }
 }
 
 .title1 {
-    margin-bottom: 200px;
-    margin-left: 400px;
+    display: flex;
+    margin-left: 260px;
     bottom: 200px;
     position: relative;
     color: #FFFFFF;
+    justify-content: center;
+    transform: translateY(calc(var(--translate-value-header) * 1%));
+    will-change: auto;
+    transition: 0.8s cubic-bezier(0.22, 0.44, 0, 1);
+    font-style: italic;
 }
 
 @media (max-width: 967px) {
     #row2{
         margin-left: 220px;
-        bottom: 100px;
+        bottom: 150px;
     }
     #row3{
         margin-left: 220px;
-        bottom: 100px;
+        bottom: 150px;
     }
+
 
 }
 
+.button {
+    margin-top: 25px;
+}
 
+#part1{
+    color: #FFFFFF;
+    width: 80%;
+
+}
