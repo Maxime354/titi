@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
 :root {
     --translate-value: -40;
 }
@@ -64,7 +64,7 @@ em {
 }
 .main {
     margin-top: 101vh;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     background-color: #29539b;
     background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
     font-family: 'Roboto', sans-serif;
@@ -115,10 +115,11 @@ em {
 a span {
     position: relative;
     color: #fff;
-    fot-size: 20px;
-    font-family: "Academy Engraved LET";
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
     letter-spacing: 8px;
     z-index: 1;
+    margin-left: -8px;
 }
 a .liquid {
     position: absolute;
@@ -288,6 +289,4 @@ a:hover .liquid {
     }
 }
 
-#parcours{
 
-}

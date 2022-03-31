@@ -1,6 +1,5 @@
-html, body { height: 20%; width: 100%}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
 
 body {
     font-family: "Open Sans", Arial;
@@ -8,92 +7,12 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
     overflow-x: hidden;
 }
-main {
-    background: #EEE;
-    width: available;
-    margin: auto;
-    padding: 10px 0;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
-}
-h2 {
-    text-align: center;
-}
-p {
-    font-size: 13px;
-}
-input {
-    display: none;
-    visibility: hidden;
-}
-label {
-    display: block;
-    padding: 0.5em;
-    text-align: center;
-    border-bottom: 1px solid #CCC;
-    color: #666;
-}
-label:hover {
-    color: #000;
-}
-label::before {
-    font-family: Consolas, monaco, monospace;
-    font-weight: bold;
-    font-size: 15px;
-    content: "+";
-    vertical-align: text-top;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 3px;
-    background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
-}
-.carousel {
-    height: 350px;
-    overflow: hidden;
-    transition: height 0.5s;
-    color: #FFF;
-}
-.carousel figure{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    width: 200%;
-    margin: 0;
-    left: 0;
-    animation: 29s slideCaroussel infinite;
-}
-.carousel figure img{
-    width: 20%;
-    float: right;
-    object-position: inherit;
-}
 
-
-
-@keyframes slideCaroussel {
-    0% {
-        left: 0;
-    }
-    33%{
-        left: -100%;
-    }
-    66%{
-        left: -200%;
-    }
-}
-section {
-    padding: 0 20px;
-}
-#toggle:checked ~ #expand {
-    height: 250px;
-}
-#toggle:checked ~ label::before {
-    content: "-";
-}
 
 #logo {
     width: 455px;
     height: 110px;
+    margin-top: 25px;
 }
 
 * {
@@ -116,8 +35,8 @@ section {
 a span {
     position: relative;
     color: #fff;
-    fot-size: 20px;
-    font-family: "Academy Engraved LET";
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
     letter-spacing: 8px;
     z-index: 1;
 }
@@ -164,10 +83,12 @@ a:hover .liquid {
 }
 
 .nav-btn {
-    margin-bottom: 50px;
-    margin-top: 20px;
+
+    top: 0;
     display: inline-flex;
     margin-right: 90px;
+    position: fixed;
+    z-index: 2;
 }
 
 .buttons {
@@ -182,120 +103,294 @@ a:hover .liquid {
         position: relative;
         flex-direction: column;
         margin-top: 100px;
-        margin-left: -300px;
+        margin-left: -400px;
+        align-self: flex-start;
+        display: inline;
+        gap: 10px 20px;
+    }
+    .nav-btn{
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+        height: 270px;
+        top: 0;
+        padding-right: 200px;
+
+    }
+}
+@media (min-width: 1201px) {
+    #row2{
+        display: inline-flex;
+    }
+    #row3{
+        display: inline-flex;
+    }
+}
+@media (max-width: 1200px) {
+    #row2{
+        margin-left: -218px;
+        top: 60px;
+    }
+    #row3{
+        margin-left: -440px;
+        top: 60px;
+    }
+}
+@media (max-width: 777px) {
+    #row2{
+        margin-left: 220px;
+        bottom: 150px;
+    }
+    #row3{
+        margin-left: 220px;
+        bottom: 150px;
+    }
+}
+@media (max-width: 767px) {
+    #row2{
+        margin-left: 220px;
+        top: -150px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -150px;
     }
 }
 
-.projet{
-    height: 350px;
-    width: 30px;
+
+.button {
+    margin-top: 25px;
 }
 
-p {
-    font-family: -apple-system;
+body {
+    background: #333;
+    padding: 70px 0;
+    font: 15px/20px Arial, sans-serif;
 }
 
-h2 h3 {
-    font-family: Damascus;
+*{box-sizing:border-box}
+body{margin:0}
+ul{padding:0}
+
+.caroussel_diapo input{display:none}
+
+.caroussel_diapo{
+    position:relative;
+    text-align: center;
+    margin-top: 200px;
+
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
-header {
-    height: 200vh;
+.contenu_carou {
+    width: 500px;
+    height: 332px;
+    margin: 2rem auto;
+    perspective: 1000px;
+
 }
 
-.container {
-    /* hide fixed overflow contents */
-    clip: rect(0, auto, auto, 0);
 
-    /* does not work if overflow = visible */
-    overflow: hidden;
-
-    /* only works with absolute positioning */
+.caroussel {
     position: absolute;
+    transform-style: preserve-3d;
+    width: 800px;
+    height: 332px;
+    transition: 1s transform;
 
-    /* Make sure containers are full-width and height */
-    height: 100vh;
+}
+
+.caroussel img {
+    position: absolute;
+    top: 0;
     left: 0;
-    width: 100%;
-
-
-    /* safari hack */
-    -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+    outline:1px solid transparent;
+    backface-visibility:hidden;
+    will-change: transform;
+    transition: 1s transform
 }
 
-.container_solid {
-    background: white;
 
-    /* position this container at the top of its parent element */
+.caroussel img:nth-child(1){
+
+    transform:translate3d(0,0,540px) scale(.8)
 
 }
 
-.title_wrapper {
-    position: fixed;
-    display: block;
-    margin: auto;
-    width: 100%;
-    /* center the text wrapper vertically */
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+.caroussel img:nth-child(2){
+
+    transform:rotateY(45deg) translateZ(540px) scale(.8)
+
 }
 
-.title_wrapper h1 {
-    text-align: center;
-    font-size: 64px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
+.caroussel img:nth-child(3){
+
+    transform:rotateY(90deg) translateZ(540px) scale(.8)
+
 }
 
-.container_solid .title_wrapper h1 {
-    /* the text background */
-    background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
-    background-size: 100vw auto;
-    background-position: center;
+.caroussel img:nth-child(4){
 
-    /* clip the text is possible */
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+    transform:rotateY(135deg) translateZ(540px) scale(.8)
 
-    /* fallback text color */
-    color: black;
 }
 
-.container_image {
-    /* Grab a free image from unsplash */
-    background-image: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-    background-size:100vw auto;
-    background-position: center;
-    background-attachment: fixed;
+.caroussel img:nth-child(5){
 
-    /* position the second container below the first container */
-    top: 100vh;
+    transform:rotateY(180deg) translateZ(540px) scale(.8)
+
 }
 
-.container_image .title_wrapper h1 {
-    color: white;
-    right: 0;
+.caroussel img:nth-child(6){
+
+    transform:rotateY(225deg) translateZ(540px) scale(.8)
+
 }
 
-section {
-    min-height: 100vh;
-    padding: 2em;
-    margin: auto;
-    max-width: 800px;
+.caroussel img:nth-child(7){
+
+    transform:rotateY(270deg) translateZ(540px) scale(.8)
+
 }
 
-section h2 {
-    font-family: 'Fraunces', serif;
+.caroussel img:nth-child(8){
+
+    transform:rotateY(315deg) translateZ(540px) scale(.8)
+
 }
 
-section p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+.caroussel_diapo input[type=radio] + label {
+    cursor: pointer;
+    background-color: hsl(203,77%,81%);
+    display: inline-block;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px
+}
+
+.caroussel_diapo input[type=radio]:checked + label{
+
+    background-color:hsl(203,77%,61%)
+
+}
+
+
+
+/*gauche*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px)
+
+}
+
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-45deg)
+
+}
+
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-90deg)
+
+}
+
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-135deg)
+
+}
+
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-180deg)
+
+}
+
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-225deg)
+
+}
+
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-270deg)
+
+}
+
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel{
+
+    transform:translateZ(-540px) rotateY(-315deg)
+
+}
+
+
+/*droite*/
+.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel img:nth-child(1){
+
+    transform:translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel img:nth-child(2){
+
+    transform:rotateY(45deg) translateZ(540px) scale(1)
+
+}
+.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel img:nth-child(3){
+
+    transform:rotateY(90deg) translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel img:nth-child(4){
+
+    transform:rotateY(135deg) translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel img:nth-child(5){
+
+    transform:rotateY(180deg) translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel img:nth-child(6){
+
+    transform:rotateY(225deg) translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel img:nth-child(7){
+
+    transform:rotateY(270deg) translateZ(540px) scale(1)
+
+}
+
+.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel img:nth-child(8){
+
+    transform:rotateY(315deg) translateZ(540px) scale(1)
+
+}
+
+img{
+    width: 444px;
+    height: 370px;
+}
+
+#photo1{
+    width: 311px;
+    height: 406px;
+    margin-left: 90px;
+}
+#photo2{
+    width: 291px;
+    height: 386px;
+    margin-left: 60px;
+}
+#photo3{
+    width: 360px;
+    height: 320px;
+    flex-direction: row;
+
 }

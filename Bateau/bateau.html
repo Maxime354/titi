@@ -13,71 +13,78 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <script type="text/javascript" src="../js/sky.js"></script>
+    <script type="javascript" src="bateau.js"></script>
 </head>
 <body class=" ">
 <a id="start"></a>
-<header>
-    <div class="nav-container ">
+<div class="nav-container ">
 
-        <nav class="bar bar-4 bar--transparent bar--absolute" id="navbar" >
+    <nav class="bar bar-4 bar--transparent bar--absolute" id="navbar" >
 
-            <div class="nav-btn">
-                <a href="../titi.html">
-                    <img src="../img/logo.png" alt="logo" id="logo">
+        <div class="nav-btn">
+
+            <a href="../titi.html">
+                <img src="../img/logo.png" alt="logo" id="logo">
+            </a>
+            <div class="buttons">
+
+                <a href="../Projet/projet.html" class="button">
+                    <span>Projet</span>
+                    <div class="liquid"></div>
                 </a>
-                <div class="buttons">
-                    <a href="../Projet/projet.html" class="button">
-                        <span>Projet</span>
-                        <div class="liquid"></div>
-                    </a>
-                    <a href="#industries" class="button">
-                        <span>Bateau</span>
-                        <div class="liquid"></div>
-                    </a>
-                    <a href="#showreel" class="button">
-                        <span>Skipper</span>
-                        <div class="liquid"></div>
-                    </a>
-                    <a href="#contact" class="button">
-                        <span>Contact</span>
-                        <div class="liquid"></div>
-                    </a>
-                </div>
+                <a href="../Bateau/bateau.html" class="button">
+                    <span>Bateau</span>
+                    <div class="liquid"></div>
+                </a>
+                <a href="#showreel" class="button" id="row2">
+                    <span>Skipper</span>
+                    <div class="liquid"></div>
+                </a>
+                <a href="#contact" class="button" id="row3">
+                    <span>Contact</span>
+                    <div class="liquid"></div>
+                </a>
             </div>
 
             <!--end module-->
 
             <!--end of container-->
-        </nav>
-        <!--end bar-->
+        </div>
+    </nav>
+    <!--end bar-->
+</div>
+
+<div class='caroussel_diapo'>
+    <input checked id="carou_un" name="rotation" type="radio">
+    <label for="carou_un"></label>
+    <input id="carou_deux" name="rotation" type="radio">
+    <label for="carou_deux"></label>
+    <input id="carou_trois" name="rotation" type="radio">
+    <label for="carou_trois"></label>
+    <input id="carou_quatre" name="rotation" type="radio">
+    <label for="carou_quatre"></label>
+    <input id="carou_cinq" name="rotation" type="radio">
+    <label for="carou_cinq"></label>
+    <input id="carou_six" name="rotation" type="radio">
+    <label for="carou_six"></label>
+    <input id="carou_sept" name="rotation" type="radio">
+    <label for="carou_sept"></label>
+    <input id="carou_huit" name="rotation" type="radio">
+    <label for="carou_huit"></label>
+    <div class="contenu_carou">
+        <div class="caroussel">
+            <img src="../img/boat1.jpg" alt=photo1 id="photo1">
+            <img src="../img/boat2.jpg" alt=photo1 id="photo2">
+            <img src="../img/boat3.jpg" alt=photo1 id="photo3">
+            <img src="../img/boat4.jpg" alt=photo1 id="photo4">
+            <img src="../img/boat5.jpg" alt=photo1 id="photo5">
+            <img src="../img/boat6.jpg" alt=photo1 id="photo6">
+            <img src="../img/boat8.jpg" alt=photo1 id="photo7">
+            <img src="../img/boat9.jpg" alt=photo1 id="photo8">
+
+        </div>
     </div>
-</header>
-
-<main>
-    <input id="toggle" type="checkbox" checked>
-
-    <div class="carousel">
-        <figure>
-            <img src="../img/projet.jpeg" class="projet">
-            <img src="../img/796.jpeg" class="projet">
-            <img src="../img/boat1.jpg" class="projet">
-            <img src="../img/boat2.jpg" class="projet">
-            <img src="../img/boat3.jpg" class="projet">
-            <img src="../img/boat4.jpg" class="projet">
-            <img src="../img/boat5.jpg" class="projet">
-            <img src="../img/boat6.jpg" class="projet">
-            <img src="../img/boat8.jpg" class="projet">
-            <img src="../img/boat9.jpg" class="projet">
-        </figure>
-    </div>
-    <section>
-        <h3>Other content</h3>
-        <p>Mon projet? Participer à la Mini Transat en 2023! En d'autres mots: Traverser l'Atlantique sur un voilier de 6m50 en solitaire!</p>
-        <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.
-            Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
-</main>
-
+</div>
 
 </body>
 </html>
