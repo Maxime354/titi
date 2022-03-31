@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root {
     --translate-value: -40;
 }
@@ -62,9 +64,10 @@ em {
 }
 .main {
     margin-top: 101vh;
-    padding-bottom: 200px;
-    background: rgb(78,71,71);
-    background: linear-gradient(41deg, rgba(78,71,71,1) 0%, rgba(21,25,25,1) 100%);    font-family: "Roboto Condensed";
+    padding-bottom: 10px;
+    background-color: #29539b;
+    background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    font-family: 'Roboto', sans-serif;
     position: relative;
     z-index: 1;
 }
@@ -78,7 +81,7 @@ em {
 .minilog {
     margin-bottom: 100px;
     position: relative;
-    top: 50px;
+    top: 110px;
 }
 
 .toggle-class {
@@ -188,9 +191,11 @@ a:hover .liquid {
         gap: 10px 20px;
     }
     .nav-btn{
-        background-image: url("../img/day.png");
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         height: 270px;
         top: 0;
+        padding-right: 200px;
 
     }
 }
@@ -198,17 +203,40 @@ a:hover .liquid {
 .title1 {
     display: flex;
     margin-left: 260px;
-    bottom: 200px;
+    margin-right: 10px;
+    bottom: 126px;
     position: relative;
     color: #FFFFFF;
     justify-content: center;
     transform: translateY(calc(var(--translate-value-header) * 1%));
     will-change: auto;
     transition: 0.8s cubic-bezier(0.22, 0.44, 0, 1);
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    box-shadow: 2px 5px 6px 2px whitesmoke;
+    text-shadow: 2px 5px 6px 2px whitesmoke;
 }
 
-@media (max-width: 967px) {
+@media (min-width: 1201px) {
+    #row2{
+        display: inline-flex;
+    }
+    #row3{
+        display: inline-flex;
+    }
+}
+@media (max-width: 1200px) {
+    #row2{
+        margin-left: -218px;
+        top: 60px;
+    }
+    #row3{
+        margin-left: -440px;
+        top: 60px;
+    }
+}
+@media (max-width: 777px) {
     #row2{
         margin-left: 220px;
         bottom: 150px;
@@ -217,9 +245,18 @@ a:hover .liquid {
         margin-left: 220px;
         bottom: 150px;
     }
-
-
 }
+@media (max-width: 767px) {
+    #row2{
+        margin-left: 220px;
+        top: -150px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -150px;
+    }
+}
+
 
 .button {
     margin-top: 25px;
@@ -228,5 +265,29 @@ a:hover .liquid {
 #part1{
     color: #FFFFFF;
     width: 80%;
+    margin-left: 20px;
+
+}
+
+.img-pro{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#text2{
+    margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .img-pro{
+        display: inline;
+        justify-content: space-between;
+    }
+    main{
+        overflow-x: hidden;
+    }
+}
+
+#parcours{
 
 }
