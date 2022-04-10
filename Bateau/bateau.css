@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
 
 body {
-    font-family: "Open Sans", Arial;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 100%);
+    background-color: #000000;
+    background-image: linear-gradient(90deg, #000000 0%, #04619f 100%);
     overflow-x: hidden;
 }
 
@@ -161,236 +160,115 @@ a:hover .liquid {
     margin-top: 25px;
 }
 
-body {
-    background: #333;
-    padding: 70px 0;
-    font: 15px/20px Arial, sans-serif;
-}
 
-*{box-sizing:border-box}
-body{margin:0}
-ul{padding:0}
-
-.caroussel_diapo input{display:none}
-
-.caroussel_diapo{
-    position:relative;
-    text-align: center;
-    margin-top: 200px;
-
+* {
+    box-sizing: border-box;
 }
 
 
-.contenu_carou {
+.pic-ctn {
+    width: 100px;
+    height: 200px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    height: 300px;
+    margin-top: 20vh;
+    margin-left: 80px;
+
+}
+
+.pic-ctn > img {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 40s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 8s;
+}
+img:nth-child(3) {
+    animation-delay: 16s;
+}
+img:nth-child(4) {
+    animation-delay: 24s;
+}
+img:nth-child(5) {
+    animation-delay: 32s;
+}
+img:nth-child(6) {
+    animation-delay: 40s;
+}
+img:nth-child(7) {
+    animation-delay: 48s;
+}
+img:nth-child(8) {
+    animation-delay: 56s;
+}
+
+.pic{
     width: 500px;
-    height: 332px;
-    margin: 2rem auto;
-    perspective: 1000px;
-
+    height: 500px;
 }
 
-
-.caroussel {
-    position: absolute;
-    transform-style: preserve-3d;
-    width: 800px;
-    height: 332px;
-    transition: 1s transform;
-
+#plan3{
+    margin-top: 300px;
+    height: 600px;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
 
-.caroussel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    outline:1px solid transparent;
-    backface-visibility:hidden;
-    will-change: transform;
-    transition: 1s transform
+@media (max-width: 1201px) {
+    .pic{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width: 777px) {
+    .pic{
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
+        margin-left: 150px;
+    }
 }
 
-
-.caroussel img:nth-child(1){
-
-    transform:translate3d(0,0,540px) scale(.8)
-
+section{
+    overflow: hidden;
+    white-space: pre-line;
 }
 
-.caroussel img:nth-child(2){
-
-    transform:rotateY(45deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(3){
-
-    transform:rotateY(90deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(4){
-
-    transform:rotateY(135deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(5){
-
-    transform:rotateY(180deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(6){
-
-    transform:rotateY(225deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(7){
-
-    transform:rotateY(270deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel img:nth-child(8){
-
-    transform:rotateY(315deg) translateZ(540px) scale(.8)
-
-}
-
-.caroussel_diapo input[type=radio] + label {
-    cursor: pointer;
-    background-color: hsl(203,77%,81%);
-    display: inline-block;
-    width: 20px;
-    border-radius: 50%;
-    height: 20px
-}
-
-.caroussel_diapo input[type=radio]:checked + label{
-
-    background-color:hsl(203,77%,61%)
-
-}
-
-
-
-/*gauche*/
-.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px)
-
-}
-
-.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-45deg)
-
-}
-
-.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-90deg)
-
-}
-
-.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-135deg)
-
-}
-
-.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-180deg)
-
-}
-
-.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-225deg)
-
-}
-
-.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-270deg)
-
-}
-
-.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel{
-
-    transform:translateZ(-540px) rotateY(-315deg)
-
-}
-
-
-/*droite*/
-.caroussel_diapo #carou_un:checked ~ .contenu_carou .caroussel img:nth-child(1){
-
-    transform:translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_deux:checked ~ .contenu_carou .caroussel img:nth-child(2){
-
-    transform:rotateY(45deg) translateZ(540px) scale(1)
-
-}
-.caroussel_diapo #carou_trois:checked ~ .contenu_carou .caroussel img:nth-child(3){
-
-    transform:rotateY(90deg) translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_quatre:checked ~ .contenu_carou .caroussel img:nth-child(4){
-
-    transform:rotateY(135deg) translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_cinq:checked ~ .contenu_carou .caroussel img:nth-child(5){
-
-    transform:rotateY(180deg) translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_six:checked ~ .contenu_carou .caroussel img:nth-child(6){
-
-    transform:rotateY(225deg) translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_sept:checked ~ .contenu_carou .caroussel img:nth-child(7){
-
-    transform:rotateY(270deg) translateZ(540px) scale(1)
-
-}
-
-.caroussel_diapo #carou_huit:checked ~ .contenu_carou .caroussel img:nth-child(8){
-
-    transform:rotateY(315deg) translateZ(540px) scale(1)
-
-}
-
-img{
-    width: 444px;
-    height: 370px;
-}
-
-#photo1{
-    width: 311px;
-    height: 406px;
-    margin-left: 90px;
-}
-#photo2{
-    width: 291px;
-    height: 386px;
-    margin-left: 60px;
-}
-#photo3{
-    width: 360px;
-    height: 320px;
-    flex-direction: row;
-
+.arrow_box {
+    position: relative;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    border: 1px solid #c2e1f5;
+    margin-left: 800px;
+    margin-top: -250px;
 }
