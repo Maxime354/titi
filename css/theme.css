@@ -3867,170 +3867,170 @@ body {
   animation: mover 2s infinite  alternate;
 }
 
-@media (min-width: 2000px) and (min-height: 1300px) {
+@media (min-width: 200px) and (min-height: 1300px) {
   .pogo {
     margin-top: 650px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1300px) {
+@media (min-width: 200px) and (max-height: 1300px) {
   .pogo {
     margin-top: 550px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1240px) {
+@media (min-width: 200px) and (max-height: 1240px) {
   .pogo {
     margin-top: 500px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1200px) {
+@media (min-width: 200px) and (max-height: 1200px) {
   .pogo {
     margin-top: 470px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1160px) {
+@media (min-width: 200px) and (max-height: 1160px) {
   .pogo {
     margin-top: 440px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1140px) {
+@media (min-width: 200px) and (max-height: 1140px) {
   .pogo {
     margin-top: 430px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1120px) {
+@media (min-width: 200px) and (max-height: 1120px) {
   .pogo {
     margin-top: 410px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1100px) {
+@media (min-width: 200px) and (max-height: 1100px) {
   .pogo {
     margin-top: 370px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1080px) {
+@media (min-width: 200px) and (max-height: 1080px) {
   .pogo {
     margin-top: 350px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1060px) {
+@media (min-width: 200px) and (max-height: 1060px) {
   .pogo {
     margin-top: 330px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1040px) {
+@media (min-width: 200px) and (max-height: 1040px) {
   .pogo {
     margin-top: 320px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1020px) {
+@media (min-width: 200px) and (max-height: 1020px) {
   .pogo {
     margin-top: 310px;
   }
 }
-@media (min-width: 2000px) and (max-height: 1000px) {
+@media (min-width: 200px) and (max-height: 1000px) {
   .pogo {
     margin-top: 290px;
   }
 }
-@media (min-width: 2000px) and (max-height: 980px) {
+@media (min-width: 200px) and (max-height: 980px) {
   .pogo {
     margin-top: 270px;
   }
 }
-@media (min-width: 2000px) and (max-height: 960px) {
+@media (min-width: 200px) and (max-height: 960px) {
   .pogo {
     margin-top: 250px;
   }
 }
-@media (min-width: 2000px) and (max-height: 940px) {
+@media (min-width: 200px) and (max-height: 940px) {
   .pogo {
     margin-top: 230px;
   }
 }
-@media (min-width: 2000px) and (max-height: 920px) {
+@media (min-width: 200px) and (max-height: 920px) {
   .pogo {
     margin-top: 210px;
   }
 }
-@media (min-width: 2000px) and (max-height: 900px) {
+@media (min-width: 200px) and (max-height: 900px) {
   .pogo {
     margin-top: 190px;
   }
 }
-@media (min-width: 2000px) and (max-height: 880px) {
+@media (min-width: 200px) and (max-height: 880px) {
   .pogo {
     margin-top: 170px;
   }
 }
-@media (min-width: 2000px) and (max-height: 860px) {
+@media (min-width: 200px) and (max-height: 860px) {
   .pogo {
     margin-top: 150px;
   }
 }
-@media (min-width: 2000px) and (max-height: 840px) {
+@media (min-width: 200px) and (max-height: 840px) {
   .pogo {
     margin-top: 130px;
   }
 }
-@media (min-width: 2000px) and (max-height: 820px) {
+@media (min-width: 200px) and (max-height: 820px) {
   .pogo {
     margin-top: 110px;
   }
 }
-@media (min-width: 2000px) and (max-height: 800px) {
+@media (min-width: 200px) and (max-height: 800px) {
   .pogo {
     margin-top: 90px;
   }
 }
-@media (min-width: 2000px) and (max-height: 780px) {
+@media (min-width: 200px) and (max-height: 780px) {
   .pogo {
     margin-top: 70px;
   }
 }
-@media (min-width: 2000px) and (max-height: 760px) {
+@media (min-width: 200px) and (max-height: 760px) {
   .pogo {
     margin-top: 50px;
   }
 }
-@media (min-width: 2000px) and (max-height: 740px) {
+@media (min-width: 200px) and (max-height: 740px) {
   .pogo {
     margin-top: 30px;
   }
 }
-@media (min-width: 2000px) and (max-height: 720px) {
+@media (min-width: 200px) and (max-height: 720px) {
   .pogo {
     margin-top: 10px;
   }
 }
-@media (min-width: 2000px) and (max-height: 700px) {
+@media (min-width: 200px) and (max-height: 700px) {
   .pogo {
     margin-top: -10px;
   }
-}@media (min-width: 2000px) and (max-height: 680px) {
+}@media (min-width: 200px) and (max-height: 680px) {
   .pogo {
     margin-top: -30px;
   }
-}@media (min-width: 2000px) and (max-height: 660px) {
+}@media (min-width: 200px) and (max-height: 660px) {
   .pogo {
     margin-top: -50px;
   }
-}@media (min-width: 2000px) and (max-height: 640px) {
+}@media (min-width: 200px) and (max-height: 640px) {
   .pogo {
     margin-top: -70px;
   }
-}@media (min-width: 2000px) and (max-height: 620px) {
+}@media (min-width: 200px) and (max-height: 620px) {
   .pogo {
     margin-top: -90px;
   }
-}@media (min-width: 2000px) and (max-height: 600px) {
+}@media (min-width: 000px) and (max-height: 600px) {
   .pogo {
     margin-top: -110px;
   }
-}@media (min-width: 2000px) and (max-height: 580px) {
+}@media (min-width: 200px) and (max-height: 580px) {
   .pogo {
     margin-top: -130px;
   }
-}@media (min-width: 2000px) and (max-height: 560px) {
+}@media (min-width: 200px) and (max-height: 560px) {
   .pogo {
     margin-top: -150px;
   }
