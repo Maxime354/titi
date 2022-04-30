@@ -115,11 +115,10 @@ em {
 a span {
     position: relative;
     color: #fff;
-    font-size: 20px;
-    font-family: 'Special Elite', cursive;
+    font-size: 16px;
+    font-family: "Academy Engraved LET";
     letter-spacing: 8px;
     z-index: 1;
-    margin-left: -8px;
 }
 a .liquid {
     position: absolute;
@@ -164,9 +163,8 @@ a:hover .liquid {
 }
 
 
-
 .nav-btn {
-    top: 0;
+    top: 10px;
     display: inline-flex;
     margin-right: 90px;
     position: fixed;
@@ -178,12 +176,41 @@ a:hover .liquid {
     margin-top: 10px;
     gap: 20px;
     margin-right: 90px;
+    z-index: 3;
 }
 
+
+
+@media all and (max-width: 880px){
+    .buttons {
+        position: relative;
+        margin-top: 100px;
+        margin-left: -452px;
+        flex-direction: row;
+        align-self: flex-start;
+        display: flex;
+        gap: 10px 20px;
+    }
+    .row2{
+        flex-direction: row;
+        display: flex;
+        margin-right: -200px;
+    }
+    .row3{
+        flex-direction: row;
+        display: flex;
+    }
+    .nav-btn{
+
+        height: 270px;
+        top: 0;
+        padding-right: 800px;
+
+    }
+}
 @media all and (max-width: 767px){
     .buttons {
         position: relative;
-        flex-direction: column;
         margin-top: 100px;
         margin-left: -400px;
         align-self: flex-start;
@@ -191,12 +218,207 @@ a:hover .liquid {
         gap: 10px 20px;
     }
     .nav-btn{
-        background-color: #000000;
-        background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
         height: 270px;
         top: 0;
         padding-right: 200px;
 
+    }
+}
+
+
+
+@media (max-width: 1320px) {
+    .buttons{
+        margin-top: 70px;
+        margin-left: -450px;
+
+    }
+    #row2{
+        margin-right: 0px;
+        top: 0px;
+    }
+    #row3{
+        margin-left: 0px;
+        top: 0px;
+    }
+}
+@media (max-width: 865px){
+    .buttons{
+        margin-left: -200px;
+    }
+    #row{
+        margin-left: -80px;
+    }
+    #row2{
+        margin-top: 85px;
+        margin-left: -440px;
+    }
+    #row3{
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+    .header-inner{
+        margin-top: 80px;
+    }
+    .nav-btn{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 777px) {
+    .buttons{
+        margin-left: -190px;
+    }
+    #row1{
+        margin-right: -400px;
+    }
+    #row2{
+
+        margin-left: -40px;
+        top: 0px;
+    }
+    #row3{
+        margin-left: 0px;
+        top: 0px;
+    }
+    .header-inner{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 767px) {
+    .buttons{
+        margin-left: -270px;
+    }
+    #row1{
+        margin-left: 220px;
+        top: -75px;
+    }
+    #row2{
+        margin-left: 0px;
+        top: -150px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -300px;
+    }
+    .header-inner{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 690px){
+    .buttons{
+        margin-left: -400px;
+    }
+}
+@media (max-width: 555px) {
+    #row{
+        margin-left: 0px;
+    }
+    #row1{
+        margin-top: 25px;
+    }
+    #row2{
+        margin-top: 120px;
+        margin-left: 0px;
+        top: -185px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -320px;
+    }
+    .header-inner{
+        margin-top: 80px;
+    }
+    .nav-btn{
+        top: -10px;
+    }
+}
+@media (max-width: 500px) {
+    #row1{
+        margin-top: 0px;
+    }
+    #row2{
+        margin-top: 150px;
+        margin-left: 0px;
+        top: -170px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -220px;
+    }
+}
+@media (max-width: 455px) {
+    .buttons{
+        margin-left: -417px;
+    }
+    #row{
+        margin-left: 15px;
+    }
+    #row1{
+        margin-top: 25px;
+        margin-left: 220px;
+
+    }
+    #row2{
+        margin-top: 100px;
+        margin-left: 15px;
+        top: -170px;
+    }
+    #row3{
+        margin-left: 220px;
+        top: -305px;
+    }
+    #logo{
+        width: 405px;
+    }
+}
+@media (max-width: 405px) {
+    .buttons{
+        margin-left: -417px;
+    }
+    #row{
+        margin-left: 5px;
+    }
+    #row1{
+        margin-top: 25px;
+        margin-left: 203px;
+
+    }
+    #row2{
+        margin-top: 100px;
+        margin-left: 5px;
+        top: -170px;
+    }
+    #row3{
+        margin-left: 203px;
+        top: -305px;
+    }
+    #logo{
+        width: 390px;
+        margin-right: 10px;
+    }
+    span{
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 355px) {
+
+    #row{
+        margin-left: -50px;
+    }
+    #row1{
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    #row2{
+        margin-top: 50px;
+        margin-left: 150px;
+        top: -170px;
+    }
+    #row3{
+        margin-left: 150px;
+        top: -150px;
     }
 }
 
@@ -216,45 +438,6 @@ a:hover .liquid {
     text-transform: uppercase;
     box-shadow: 2px 5px 6px 2px whitesmoke;
     text-shadow: 2px 5px 6px 2px whitesmoke;
-}
-
-@media (min-width: 1201px) {
-    #row2{
-        display: inline-flex;
-    }
-    #row3{
-        display: inline-flex;
-    }
-}
-@media (max-width: 1200px) {
-    #row2{
-        margin-left: -218px;
-        top: 60px;
-    }
-    #row3{
-        margin-left: -440px;
-        top: 60px;
-    }
-}
-@media (max-width: 777px) {
-    #row2{
-        margin-left: 220px;
-        bottom: 150px;
-    }
-    #row3{
-        margin-left: 220px;
-        bottom: 150px;
-    }
-}
-@media (max-width: 767px) {
-    #row2{
-        margin-left: 220px;
-        top: -150px;
-    }
-    #row3{
-        margin-left: 220px;
-        top: -150px;
-    }
 }
 
 

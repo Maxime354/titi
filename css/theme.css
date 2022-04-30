@@ -3675,7 +3675,7 @@ width: 455px;
 a span {
   position: relative;
   color: #fff;
-  fot-size: 20px;
+  font-size: 16px;
   font-family: "Academy Engraved LET";
   letter-spacing: 8px;
   z-index: 1;
@@ -3724,7 +3724,7 @@ a:hover .liquid {
 
 
 .nav-btn {
-  top: 0;
+  top: 35px;
   display: inline-flex;
   margin-right: 90px;
   position: fixed;
@@ -3763,7 +3763,7 @@ a:hover .liquid {
   .nav-btn{
 
     height: 270px;
-    top: 0;
+    top: 35px;
     padding-right: 800px;
 
   }
@@ -3780,7 +3780,7 @@ a:hover .liquid {
   .nav-btn{
 
     height: 270px;
-    top: 0;
+    top: 25px;
     padding-right: 200px;
 
   }
@@ -3803,7 +3803,7 @@ a:hover .liquid {
     top: 0px;
   }
 }
-@media (max-width: 777px) {
+@media (max-width: 868px) {
   .buttons{
     margin-left: -270px;
   }
@@ -3830,11 +3830,11 @@ a:hover .liquid {
   }
   #row2{
     margin-left: 0px;
-    top: -30px;
+    top: -40px;
   }
   #row3{
     margin-left: 220px;
-    top: -80px;
+    top: -90px;
   }
 }
 @media (max-width: 690px){
@@ -3849,11 +3849,11 @@ a:hover .liquid {
   #row2{
     margin-top: 150px;
     margin-left: 0px;
-    top: -170px;
+    top: -190px;
   }
   #row3{
     margin-left: 220px;
-    top: -220px;
+    top: -240px;
   }
 }
 @media (max-width: 500px) {
@@ -3863,11 +3863,11 @@ a:hover .liquid {
   #row2{
     margin-top: 150px;
     margin-left: 0px;
-    top: -170px;
+    top: -190px;
   }
   #row3{
     margin-left: 220px;
-    top: -220px;
+    top: -240px;
   }
 }
 @media (max-width: 455px) {
@@ -3875,27 +3875,50 @@ a:hover .liquid {
     margin-left: -417px;
   }
   #row{
-    margin-left: -5px;
+    margin-left: 15px;
   }
   #row1{
     margin-top: 0px;
-    margin-left: 195px;
+    margin-left: 220px;
 
   }
   #row2{
     margin-top: 150px;
-    margin-left: -5px;
-    top: -170px;
+    margin-left: 15px;
+    top: -190px;
   }
   #row3{
-    margin-left: 195px;
-    top: -220px;
+    margin-left: 220px;
+    top: -240px;
   }
   #logo{
     width: 405px;
   }
+  span{
+    margin-left: -10px;
+  }
 }
-
+@media (max-width: 405px){
+  #row{
+    margin-left: 10px;
+  }
+  #row1{
+    margin-left: 210px;
+  }
+  #row2{
+    margin-left: 10px;
+  }
+  #row3{
+    margin-left: 210px;
+  }
+  span{
+    margin-left: -20px;
+  }
+  #logo{
+    width: 390px;
+    margin-right: 10px;
+  }
+}
 @media (max-width: 355px) {
 
   #row{
@@ -4061,6 +4084,8 @@ body.pause {
   animation: linear sunrise infinite var(--animation-speed);
 }
 
+
+
 @media (min-width: 308px) {
   .sky {
     min-height: 1900px;
@@ -4069,7 +4094,7 @@ body.pause {
   .orbit {
     width: 700px;
     height: 700px;
-    margin: 150px auto;
+    margin-top: 600px;
     --animation-speed: 68s;
   }
   .sky__midnight {
@@ -4088,13 +4113,23 @@ body.pause {
     --animation-speed: 68s;
   }
 }
+@media (min-width: 700px) {
+  .orbit{
+    top: 200px;
+  }
+}
+@media (min-width: 800px) {
+  .orbit{
+    top: 400px;
+  }
+}
 
 @media (min-width: 940px) {
   .orbit {
     width: 800px;
     height: 800px;
     --animation-speed: 68s;
-
+    margin-top: 300px;
   }
 }
 
@@ -4105,7 +4140,8 @@ body.pause {
   .orbit {
     width: 1000px;
     height: 1000px;
-    margin: 200px auto;
+    margin-top: 600px;
+
   }
 }
 
