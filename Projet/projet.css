@@ -261,9 +261,6 @@ a:hover .liquid {
     .header-inner{
         margin-top: 80px;
     }
-    .nav-btn{
-        margin-top: 10px;
-    }
 }
 @media (max-width: 777px) {
     .buttons{
@@ -289,6 +286,9 @@ a:hover .liquid {
     .buttons{
         margin-left: -270px;
     }
+    #row{
+        margin-left: 0px;
+    }
     #row1{
         margin-left: 220px;
         top: -75px;
@@ -299,7 +299,7 @@ a:hover .liquid {
     }
     #row3{
         margin-left: 220px;
-        top: -300px;
+        top: -285px;
     }
     .header-inner{
         margin-top: 80px;
@@ -308,6 +308,9 @@ a:hover .liquid {
 @media (max-width: 690px){
     .buttons{
         margin-left: -400px;
+    }
+    .nav-btn{
+        top: -10px;
     }
 }
 @media (max-width: 555px) {
