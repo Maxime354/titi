@@ -37,7 +37,8 @@ a span {
     font-size: 16px;
     font-family: "Academy Engraved LET";
     letter-spacing: 8px;
-    z-index: 1;
+    z-index: 2;
+    margin-left: -10px;
 }
 a .liquid {
     position: absolute;
@@ -255,18 +256,18 @@ a:hover .liquid {
         margin-left: 15px;
     }
     #row1{
-        margin-top: 25px;
+        margin-top: 0px;
         margin-left: 220px;
 
     }
     #row2{
-        margin-top: 100px;
+        margin-top: 130px;
         margin-left: 15px;
         top: -170px;
     }
     #row3{
         margin-left: 220px;
-        top: -305px;
+        top: -280px;
     }
     #logo{
         width: 405px;
@@ -280,46 +281,34 @@ a:hover .liquid {
         margin-left: 5px;
     }
     #row1{
-        margin-top: 25px;
+        margin-top: 0px;
         margin-left: 203px;
 
     }
     #row2{
-        margin-top: 100px;
+        margin-top: 130px;
         margin-left: 5px;
         top: -170px;
     }
     #row3{
         margin-left: 203px;
-        top: -305px;
+        top: -280px;
     }
     #logo{
         width: 390px;
         margin-right: 10px;
     }
     span{
-        margin-left: -15px;
+        left: -10px;
     }
 }
 
 @media (max-width: 355px) {
 
-    #row{
-        margin-left: -50px;
-    }
-    #row1{
-        margin-left: -50px;
-        margin-top: 20px;
-    }
-    #row2{
-        margin-top: 50px;
-        margin-left: 150px;
-        top: -170px;
-    }
-    #row3{
-        margin-left: 150px;
-        top: -150px;
-    }
+   .buttons{
+       display: flex;
+       flex-direction: column;
+   }
 }
 
 * {
@@ -456,12 +445,13 @@ section{
 }
 
 .arrow_box {
-    position: relative;
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    font-family: Garamond, serif;
+    font-size: 20px;
+    background-image: url("../img/waves.jpeg");
     border: 1px solid #c2e1f5;
+    padding-left: 10px;
     margin-left: 700px;
-    margin-top: -250px;
+    margin-top: -285px;
     padding-left: 10px;
 }
 

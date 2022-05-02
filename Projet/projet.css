@@ -119,6 +119,7 @@ a span {
     font-family: "Academy Engraved LET";
     letter-spacing: 8px;
     z-index: 1;
+    margin-left: -10px;
 }
 a .liquid {
     position: absolute;
@@ -399,7 +400,7 @@ a:hover .liquid {
         margin-right: 10px;
     }
     span{
-        margin-left: -15px;
+        left: -8px;
     }
 }
 

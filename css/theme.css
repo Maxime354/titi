@@ -3678,7 +3678,8 @@ a span {
   font-size: 16px;
   font-family: "Academy Engraved LET";
   letter-spacing: 8px;
-  z-index: 1;
+  z-index: 2;
+  margin-left: -10px;
 }
 a .liquid {
   position: absolute;
@@ -3841,6 +3842,9 @@ a:hover .liquid {
   .buttons{
     margin-left: -400px;
   }
+  .nav-btn{
+    top: 14px;
+  }
 }
 @media (max-width: 555px) {
   #row1{
@@ -3912,7 +3916,7 @@ a:hover .liquid {
     margin-left: 210px;
   }
   span{
-    margin-left: -20px;
+    left: -10px;
   }
   #logo{
     width: 390px;
