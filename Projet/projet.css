@@ -337,17 +337,15 @@ a:hover .liquid {
     }
 }
 @media (max-width: 500px) {
-    #row1{
-        margin-top: 0px;
-    }
+
     #row2{
-        margin-top: 150px;
+        margin-top: 105px;
         margin-left: 0px;
         top: -170px;
     }
     #row3{
         margin-left: 220px;
-        top: -220px;
+        top: -305px;
     }
 }
 @media (max-width: 455px) {
