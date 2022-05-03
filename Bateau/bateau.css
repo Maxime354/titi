@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
 
 body {
-    background-color: #000000;
-    background-image: linear-gradient(90deg, #000000 0%, #04619f 100%);
+
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 }
 
@@ -46,7 +48,7 @@ a .liquid {
     left: 0;
     width: 200px;
     height: 200px;
-    background: rgba(0, 119, 255, 0.6);
+    background: rgb(0, 119, 255);
     box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
     transition: 0.5s;
 }
@@ -354,7 +356,7 @@ a:hover .liquid {
 
 .pic-ctn > img {
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: calc(50% - 100px);
     opacity: 0;
     animation: display 40s infinite;
@@ -383,8 +385,11 @@ img:nth-child(8) {
 }
 
 .pic{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    border: solid;
+    border-width: 10px;
+    border-color: black;
 }
 
 #plan3{
@@ -449,10 +454,14 @@ section{
     font-size: 20px;
     background-image: url("../img/waves.jpeg");
     border: 1px solid #c2e1f5;
-    padding-left: 10px;
-    margin-left: 700px;
+    margin-left: 750px;
     margin-top: -285px;
-    padding-left: 10px;
+    padding-left: 40px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+
 }
 
 @media (max-width: 1202px) {
