@@ -426,8 +426,8 @@ a:hover .liquid {
 
 .title1 {
     display: flex;
-    margin-left: 260px;
-    margin-right: 10px;
+    margin-left: 550px;
+    margin-right: 400px;
     bottom: 126px;
     position: relative;
     color: #FFFFFF;
@@ -437,9 +437,9 @@ a:hover .liquid {
     transition: 0.8s cubic-bezier(0.22, 0.44, 0, 1);
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    text-transform: uppercase;
     box-shadow: 2px 5px 6px 2px whitesmoke;
     text-shadow: 2px 5px 6px 2px whitesmoke;
+
 }
 
 
@@ -451,7 +451,6 @@ a:hover .liquid {
     color: #FFFFFF;
     width: 80%;
     margin-left: 20px;
-
 }
 
 .img-pro{
@@ -473,4 +472,25 @@ a:hover .liquid {
     }
 }
 
+#parcours{
+    border: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
 
+#minilog {
+    border: solid;
+    border-width: 5px;
+    margin-left: 10px;
+    top: 20px;
+}
+
+h2 {
+    font-family: Garamond;
+}
+
+p {
+    font-family: Garamond;
+    font-weight: normal;
+}

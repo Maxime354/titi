@@ -3899,6 +3899,7 @@ a:hover .liquid {
   #logo{
     width: 405px;
   }
+
   span{
     margin-left: -10px;
   }
@@ -3927,20 +3928,49 @@ a:hover .liquid {
 @media (max-width: 355px) {
 
   #row{
-    margin-left: -50px;
+    margin-left: 90px;
   }
   #row1{
-    margin-left: -50px;
-    margin-top: 20px;
+    margin-left: 90px;
+    margin-top: 60px;
   }
   #row2{
-    margin-top: 50px;
-    margin-left: 150px;
-    top: -170px;
+    margin-top: 20px;
+    margin-left: 90px;
+    top: -60px;
   }
   #row3{
-    margin-left: 150px;
-    top: -150px;
+    margin-left: 90px;
+    top: -50px;
+  }
+  #logo{
+    width: 370px;
+  }
+}
+
+@media (max-width: 340px){
+  #logo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 277px) {
+
+  #row{
+    margin-left: 50px;
+  }
+  #row1{
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  #row2{
+    margin-top: 20px;
+    margin-left: 50px;
+    top: -60px;
+  }
+  #row3{
+    margin-left: 50px;
+    top: -50px;
   }
 }
 
