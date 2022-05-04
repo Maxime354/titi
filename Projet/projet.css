@@ -439,9 +439,53 @@ a:hover .liquid {
     font-size: 40px;
     box-shadow: 2px 5px 6px 2px whitesmoke;
     text-shadow: 2px 5px 6px 2px whitesmoke;
-
 }
 
+@media (max-width: 1115px){
+    .title1{
+        box-shadow: none;
+        text-decoration: underline;
+    }
+}
+@media (max-width: 635px){
+    .title1{
+        right: 100px;
+        bottom: 180px
+    }
+}
+@media (max-width: 545px){
+    .title1{
+        right: 130px;
+        bottom: 180px
+    }
+}
+@media (max-width: 515px){
+    .title1{
+        right: 160px;
+        bottom: 180px
+    }
+}
+@media (max-width: 480px){
+    .title1{
+        right: 180px;
+        bottom: 180px
+    }
+}
+@media (max-width: 455px){
+    .title1{
+        right: 200px;
+        bottom: 180px
+    }
+}
+@media (max-width: 440px){
+    .title1{
+        right: 450px;
+        top: 30px;
+    }
+    #part1{
+        margin-top: 80px;
+    }
+}
 
 .button {
     margin-top: 25px;
@@ -459,6 +503,7 @@ a:hover .liquid {
     justify-content: center
 }
 #text2{
+    margin-top: 50px;
     margin-left: 20px;
 }
 
@@ -488,6 +533,8 @@ a:hover .liquid {
 
 h2 {
     font-family: Garamond;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 p {

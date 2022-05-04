@@ -482,12 +482,63 @@ section{
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
+    margin-left: 0px;
+}
+@media (max-width: 1320px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        margin-right: 100px;
+        margin-left: 2px;
+    }
 }
 
 @media (max-width: 1202px) {
     .arrow_box {
         margin-top: 10px;
         float: left;
+        margin-right: 88px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 615px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 535px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 460px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 0px;
     }
 }
 
