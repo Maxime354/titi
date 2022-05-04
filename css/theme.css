@@ -3622,18 +3622,189 @@ footer.footer-7 {
   .pogo {
     margin-top: -130px;
   }
-}@media (min-width: 200px) and (max-height: 560px) {
+}
+@media (min-width: 200px) and (max-height: 560px) {
   .pogo {
     margin-top: -150px;
   }
 }
-
-@media (max-width: 768px){
-  .pogo {
-    margin-top: 300px;
+@media (max-width: 768px) and (max-height: 920px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 110px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) and (max-height: 900px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 130px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) and (max-height: 880px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 150px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) and (max-height: 850px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 170px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) and (max-height: 840px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 190px;
+  }
+  body {
+    overflow: hidden;
   }
 }
 
+@media (max-width: 768px) and (max-height: 800px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 220px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 790px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 230px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 780px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 250px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 760px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 270px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 740px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 290px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 720px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 310px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 700px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 330px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 680px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 350px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 660px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 370px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 640px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 390px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
+@media (max-width: 758px) and (max-height: 620px){
+  .pogo{
+    bottom: 20px;
+  }
+  .ocean{
+    bottom: 410px;
+  }
+  body {
+  overflow: hidden;
+  }
+}
 
 
 @-webkit-keyframes mover {
@@ -3741,9 +3912,16 @@ a:hover .liquid {
   z-index: 3;
 }
 
-
+@media (max-height: 800px){
+  a{
+    display: block;
+  }
+}
 
 @media all and (max-width: 880px){
+  a{
+    display: block;
+  }
   .buttons {
     position: relative;
     margin-top: 100px;
@@ -4366,5 +4544,6 @@ body.pause {
 
 }
 
-
-
+a {
+  display: block;
+}
