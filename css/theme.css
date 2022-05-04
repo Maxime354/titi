@@ -3901,7 +3901,7 @@ a:hover .liquid {
   display: inline-flex;
   margin-right: 90px;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 }
 
 .buttons {
@@ -3912,16 +3912,7 @@ a:hover .liquid {
   z-index: 3;
 }
 
-@media (max-height: 800px){
-  a{
-    display: block;
-  }
-}
-
 @media all and (max-width: 880px){
-  a{
-    display: block;
-  }
   .buttons {
     position: relative;
     margin-top: 100px;
@@ -3987,9 +3978,9 @@ a:hover .liquid {
   .buttons{
     margin-left: -270px;
   }
-#row1{
-  margin-right: -400px;
-}
+  #row1{
+    margin-right: -400px;
+  }
   #row2{
 
     margin-left: -40px;
@@ -4077,7 +4068,6 @@ a:hover .liquid {
   #logo{
     width: 405px;
   }
-
   span{
     margin-left: -10px;
   }
@@ -4106,52 +4096,22 @@ a:hover .liquid {
 @media (max-width: 355px) {
 
   #row{
-    margin-left: 90px;
+    margin-left: -50px;
   }
   #row1{
-    margin-left: 90px;
-    margin-top: 60px;
+    margin-left: -50px;
+    margin-top: 20px;
   }
   #row2{
-    margin-top: 20px;
-    margin-left: 90px;
-    top: -60px;
+    margin-top: 50px;
+    margin-left: 150px;
+    top: -170px;
   }
   #row3{
-    margin-left: 90px;
-    top: -50px;
-  }
-  #logo{
-    width: 370px;
+    margin-left: 150px;
+    top: -150px;
   }
 }
-
-@media (max-width: 340px){
-  #logo {
-    width: 300px;
-  }
-}
-
-@media (max-width: 277px) {
-
-  #row{
-    margin-left: 50px;
-  }
-  #row1{
-    margin-left: 50px;
-    margin-top: 60px;
-  }
-  #row2{
-    margin-top: 20px;
-    margin-left: 50px;
-    top: -60px;
-  }
-  #row3{
-    margin-left: 50px;
-    top: -50px;
-  }
-}
-
 
 @keyframes sunrise {
   from {
