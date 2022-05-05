@@ -410,7 +410,7 @@ a:hover .liquid {
 @media (max-width: 687px){
     .pic-ctn > img {
         margin-left: 0px;
-        margin-top: 50px;
+        margin-top: 59px;
         height: 550px;
         width: 550px;
     }
@@ -451,8 +451,8 @@ a:hover .liquid {
     .pic-ctn > img {
         margin-left: -20px;
         margin-top: 50px;
-        height: 350px;
-        width: 350px;
+        height: 390px;
+        width: 390px;
     }
 }
 @media (max-width: 365px){
@@ -603,18 +603,21 @@ img:nth-child(8) {
     #plan3{
         height: 500px;
         width: 400px;
+        margin-left: 50px;
     }
 }
 @media (max-width: 450px){
     #plan3{
         height: 450px;
         width: 350px;
+        margin-left: 50px;
     }
 }
 @media (max-width: 400px){
     #plan3{
         height: 400px;
         width: 300px;
+        margin-left: 50px;
     }
 }
 @media (max-width: 350px){
@@ -672,6 +675,20 @@ section{
         float: left;
     }
 }
+@media (max-width: 570px) {
+    .arrow_box {
+        margin-top: 280px;
+        margin-left: 0px;
+        float: left;
+    }
+}
+@media (max-width: 550px) {
+    .arrow_box {
+        margin-top: 180px;
+        margin-left: 0px;
+        float: left;
+    }
+}
 
 .dim{
     position: relative;
@@ -683,8 +700,8 @@ section{
 
 @media (max-width: 1080px){
     .dim{
-        top: 10px;
-        margin-left: 100px;
+        top: -30px;
+        margin-left: 70px;
     }
 }
 

@@ -3652,7 +3652,7 @@ footer.footer-7 {
 }
 @media (max-width: 768px) and (max-height: 880px){
   .pogo{
-    bottom: 20px;
+    bottom: 0px;
   }
   .ocean{
     bottom: 150px;
@@ -4261,7 +4261,7 @@ body.pause {
 
 @media (min-width: 308px) {
   .sky {
-    min-height: 1900px;
+    min-height: 2100px;
 
   }
   .orbit {
@@ -4293,7 +4293,7 @@ body.pause {
 }
 @media (min-width: 800px) {
   .orbit{
-    top: 400px;
+    top: 540px;
   }
 }
 
