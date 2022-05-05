@@ -3333,8 +3333,9 @@ footer.footer-7 {
   top: -20px;
   width: 6400px;
   height: 88px;
-  animation: wave 2s cubic-bezier( 0.86, 0.45, 0.93, 0.53) infinite;
+  animation: wave 2s cubic-bezier( 10.86, 0.45, 9.93, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  margin-left: -500px;
 }
 .wave2 {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
@@ -3452,11 +3453,16 @@ footer.footer-7 {
 }
 
 .pogo {
-  margin-top: 120px;
+  margin-top: 80px;
   position: relative;
   -webkit-animation: mover 2s infinite  alternate;
   animation: mover 2s infinite  alternate;
 
+}
+@media (max-width: 1500px){
+  .pogo{
+    bottom: 5px;
+  }
 }
 
 @media (min-width: 200px) and (min-height: 1300px) {
@@ -3576,12 +3582,12 @@ footer.footer-7 {
 }
 @media (min-width: 200px) and (max-height: 780px) {
   .pogo {
-    margin-top: 70px;
+    margin-top: 77px;
   }
 }
 @media (min-width: 200px) and (max-height: 760px) {
   .pogo {
-    margin-top: 50px;
+    margin-top: 60px;
   }
 }
 @media (min-width: 200px) and (max-height: 740px) {
@@ -3591,28 +3597,29 @@ footer.footer-7 {
 }
 @media (min-width: 200px) and (max-height: 720px) {
   .pogo {
-    margin-top: 10px;
+    margin-top: 25px;
   }
 }
 @media (min-width: 200px) and (max-height: 700px) {
   .pogo {
-    margin-top: -10px;
+    margin-top: 5px;
   }
 }@media (min-width: 200px) and (max-height: 680px) {
   .pogo {
-    margin-top: -30px;
+    margin-top: -15px;
   }
 }@media (min-width: 200px) and (max-height: 660px) {
   .pogo {
-    margin-top: -50px;
+    margin-top: -32px;
   }
 }@media (min-width: 200px) and (max-height: 640px) {
   .pogo {
-    margin-top: -70px;
+    margin-top: -60px;
   }
+
 }@media (min-width: 200px) and (max-height: 620px) {
   .pogo {
-    margin-top: -90px;
+    margin-top: -70px;
   }
 }@media (min-width: 200px) and (max-height: 600px) {
   .pogo {
@@ -3620,14 +3627,16 @@ footer.footer-7 {
   }
 }@media (min-width: 200px) and (max-height: 580px) {
   .pogo {
-    margin-top: -130px;
+    margin-top: -90px;
   }
 }
 @media (min-width: 200px) and (max-height: 560px) {
   .pogo {
-    margin-top: -150px;
+    margin-top: -90px;
   }
 }
+
+
 @media (max-width: 768px) and (max-height: 920px){
   .pogo{
     bottom: 20px;
@@ -3641,10 +3650,10 @@ footer.footer-7 {
 }
 @media (max-width: 768px) and (max-height: 900px){
   .pogo{
-    bottom: 20px;
+    bottom: 10px;
   }
   .ocean{
-    bottom: 130px;
+    bottom: 120px;
   }
   body {
     overflow: hidden;
@@ -3677,7 +3686,7 @@ footer.footer-7 {
     bottom: 20px;
   }
   .ocean{
-    bottom: 190px;
+    bottom: 20px;
   }
   body {
     overflow: hidden;
@@ -3719,7 +3728,7 @@ footer.footer-7 {
 }
 @media (max-width: 758px) and (max-height: 760px){
   .pogo{
-    bottom: 20px;
+    bottom: 10px;
   }
   .ocean{
     bottom: 270px;
@@ -3730,10 +3739,10 @@ footer.footer-7 {
 }
 @media (max-width: 758px) and (max-height: 740px){
   .pogo{
-    bottom: 20px;
+    bottom: 10px;
   }
   .ocean{
-    bottom: 290px;
+    bottom: 277px;
   }
   body {
   overflow: hidden;
@@ -3741,7 +3750,7 @@ footer.footer-7 {
 }
 @media (max-width: 758px) and (max-height: 720px){
   .pogo{
-    bottom: 20px;
+    bottom: 30px;
   }
   .ocean{
     bottom: 310px;
@@ -3763,7 +3772,7 @@ footer.footer-7 {
 }
 @media (max-width: 758px) and (max-height: 680px){
   .pogo{
-    bottom: 20px;
+    bottom: 30px;
   }
   .ocean{
     bottom: 350px;
@@ -3777,7 +3786,7 @@ footer.footer-7 {
     bottom: 20px;
   }
   .ocean{
-    bottom: 370px;
+    bottom: 362px;
   }
   body {
   overflow: hidden;
@@ -4073,6 +4082,9 @@ a:hover .liquid {
   }
 }
 @media (max-width: 405px){
+  .nav-btn{
+    margin-left: 30px;
+  }
   #row{
     margin-left: 10px;
   }
@@ -4091,25 +4103,32 @@ a:hover .liquid {
   #logo{
     width: 390px;
     margin-right: 10px;
+    margin-left: -30px;
   }
 }
 @media (max-width: 355px) {
 
   #row{
-    margin-left: -50px;
+    margin-left: 150px;
+    margin-top: 10px;
   }
   #row1{
-    margin-left: -50px;
-    margin-top: 20px;
+    margin-left: 150px;
+    margin-top: 70px;
   }
   #row2{
     margin-top: 50px;
     margin-left: 150px;
-    top: -170px;
+    top: -90px;
   }
   #row3{
     margin-left: 150px;
-    top: -150px;
+    top: -80px;
+  }
+  #logo{
+    width: 330px;
+    margin-right: 10px;
+    margin-left: -30px;
   }
 }
 
@@ -4196,11 +4215,11 @@ body.pause {
 .sky {
   width: 100vw;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
   max-height: 700px;
   overflow: hidden;
+  position: relative;
 }
 
 .sky__phase {
@@ -4259,7 +4278,7 @@ body.pause {
 
 
 
-@media (min-width: 308px) {
+@media (min-width: 108px) {
   .sky {
     min-height: 2100px;
 
@@ -4293,7 +4312,17 @@ body.pause {
 }
 @media (min-width: 800px) {
   .orbit{
-    top: 540px;
+    top: 140px;
+  }
+}
+@media (max-width: 900px) and (max-height: 1200px){
+  .orbit{
+    top: 600px
+  }
+}
+@media (max-width: 950px) and (max-height: 1400px){
+  .orbit{
+    top: 900px
   }
 }
 
@@ -4302,7 +4331,7 @@ body.pause {
     width: 800px;
     height: 800px;
     --animation-speed: 68s;
-    margin-top: 300px;
+    margin-top: 500px;
   }
 }
 
@@ -4492,6 +4521,105 @@ body.pause {
   position: absolute;
   margin-left: 1300px;
   margin-top: 140px;
+}
+#sky__stars16 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#sky__stars17 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 800px;
+}
+#sky__stars18 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 1000px;
+}
+#sky__stars19 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 700px;
+}
+#sky__stars20 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 700px;
+}
+#sky__stars20 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 650px;
+}
+#sky__stars21 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 800px;
+}
+#sky__stars22 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 1000px;
+}
+#sky__stars23 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 900px;
+}
+#sky__stars24 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 1050px;
+}
+#sky__stars25 {
+  width: 3px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 1000px;
 }
 
 #toggle-animation:hover {
