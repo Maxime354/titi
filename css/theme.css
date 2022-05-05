@@ -4130,6 +4130,9 @@ a:hover .liquid {
     margin-right: 10px;
     margin-left: -30px;
   }
+  .nav-btn{
+    margin-left: 0px;
+  }
 }
 
 @keyframes sunrise {

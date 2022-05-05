@@ -145,7 +145,7 @@ a:hover .liquid {
 }
 @media (max-width: 865px){
     .buttons{
-        margin-left: -280px;
+        margin-left: -190px;
         top: 10px;
     }
     #row{
@@ -168,7 +168,7 @@ a:hover .liquid {
 }
 @media (max-width: 777px) {
     .buttons{
-        margin-left: -270px;
+        margin-left: -220px;
         top: 0px;
     }
     #row1{
@@ -261,7 +261,7 @@ a:hover .liquid {
 }
 @media (max-width: 455px) {
     .buttons{
-        margin-left: -400px;
+        margin-left: -415px;
     }
     #row{
         margin-left: 15px;
@@ -286,7 +286,7 @@ a:hover .liquid {
 }
 @media (max-width: 405px) {
     .buttons{
-        margin-left: -405px;
+        margin-left: -400px;
     }
     #row{
         margin-left: 5px;
@@ -313,7 +313,11 @@ a:hover .liquid {
         margin-left: -15px;
     }
 }
-
+@media (max-width: 400px){
+    .buttons{
+        margin-left: -400px;
+    }
+}
 @media (max-width: 355px) {
 
     #row{
@@ -498,7 +502,7 @@ section{
         margin-top: 10px;
         float: left;
         margin-right: 88px;
-        margin-left: 80px;
+        margin-left: 5px;
     }
 }
 @media (max-width: 615px) {
@@ -574,22 +578,22 @@ h1{
 }
 @media (max-width: 950px){
     h1{
-        margin-left: 300px;
+        margin-left: 250px;
     }
 }
 @media (max-width: 900px){
     h1{
-        margin-left: 280px;
+        margin-left: 230px;
     }
 }
 @media (max-width: 850px){
     h1{
-        margin-left: 260px;
+        margin-left: 220px;
     }
 }
 @media (max-width: 800px){
     h1{
-        margin-left: 240px;
+        margin-left: 210px;
     }
 }
 @media (max-width: 750px){
@@ -631,10 +635,10 @@ p {
     border-radius: 200px;
     border-color: black;
     border-width: 10px;
-    animation: fadeIn 7s;
-    -webkit-animation: fadeIn 7s, slidein 3s;
-    -moz-animation: fadeIn 7s;
-    -o-animation: fadeIn 7s;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s, slidein 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
 
 }
 
