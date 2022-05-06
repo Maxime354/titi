@@ -520,8 +520,212 @@ a:hover .liquid {
 #parcours{
     border: solid;
     border-width: 5px;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 359px;
+    width: 765px;
+}
+@media (max-width: 1350px){
+    #parcours{
+        margin-left: 330px;
+    }
+}
+@media (max-width: 1330px){
+    #parcours{
+        margin-left: 310px;
+    }
+}
+@media (max-width: 1310px){
+    #parcours{
+        margin-left: 290px;
+    }
+}
+@media (max-width: 1290px){
+    #parcours{
+        margin-left: 270px;
+    }
+}
+@media (max-width: 1270px){
+    #parcours{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1250px){
+    #parcours{
+        margin-left: 230px;
+    }
+}
+@media (max-width: 1230px){
+    #parcours{
+        margin-left: 210px;
+    }
+}
+@media (max-width: 1210px){
+    #parcours{
+        margin-left: 190px;
+    }
+}
+@media (max-width: 1190px){
+    #parcours{
+        margin-left: 170px;
+    }
+}
+@media (max-width: 1170px){
+    #parcours{
+        margin-left: 150px;
+    }
+}
+@media (max-width: 1150px){
+    #parcours{
+        margin-left: 130px;
+    }
+}
+@media (max-width: 1130px){
+    #parcours{
+        margin-left: 110px;
+    }
+}
+@media (max-width: 1110px){
+    #parcours{
+        margin-left: 90px;
+    }
+}
+@media (max-width: 980px){
+    #parcours{
+        margin-left: 90px;
+        width: 725px;
+    }
+}
+@media (max-width: 880px){
+    #parcours{
+        margin-left: 90px;
+        width: 685px;
+    }
+}
+@media (max-width: 840px){
+    #parcours{
+        margin-left: 90px;
+        width: 645px;
+    }
+}
+@media (max-width: 800px){
+    #parcours{
+        margin-left: 90px;
+        width: 605px;
+    }
+}
+@media (max-width: 760px){
+    #parcours{
+        margin-left: 90px;
+        width: 565px;
+    }
+}
+@media (max-width: 720px){
+    #parcours{
+        margin-left: 90px;
+        width: 525px;
+    }
+}
+@media (max-width: 680px){
+    #parcours{
+        margin-left: 90px;
+        width: 485px;
+    }
+}
+@media (max-width: 630px){
+    #parcours{
+        margin-left: 50px;
+        width: 485px;
+    }
+}
+@media (max-width: 600px){
+    #parcours{
+        margin-left: 30px;
+        width: 485px;
+    }
+}
+@media (max-width: 570px){
+    #parcours{
+        margin-left: 0px;
+        width: 485px;
+    }
+}
+@media (max-width: 484px){
+    #parcours{
+        margin-left: 0px;
+        width: 465px;
+    }
+}
+@media (max-width: 464px){
+    #parcours{
+        margin-left: 0px;
+        width: 445px;
+    }
+}
+@media (max-width: 444px){
+    #parcours{
+        margin-left: 0px;
+        width: 425px;
+    }
+}
+@media (max-width: 424px){
+    #parcours{
+        margin-left: 0px;
+        width: 405px;
+    }
+}
+@media (max-width: 405px){
+    #parcours{
+        margin-left: 0px;
+        width: 385px;
+    }
+}
+@media (max-width: 385px){
+    #parcours{
+        margin-left: 0px;
+        width: 365px;
+    }
+}
+@media (max-width: 365px){
+    #parcours{
+        margin-left: 0px;
+        width: 345px;
+    }
+}
+@media (max-width: 345px){
+    #parcours{
+        margin-left: 0px;
+        width: 325px;
+    }
+}
+@media (max-width: 325px){
+    #parcours{
+        margin-left: 0px;
+        width: 305px;
+    }
+}
+@media (max-width: 305px){
+    #parcours{
+        margin-left: 0px;
+        width: 285px;
+    }
+}
+@media (max-width: 285px){
+    #parcours{
+        margin-left: 0px;
+        width: 265px;
+    }
+}
+@media (max-width: 265px){
+    #parcours{
+        margin-left: 0px;
+        width: 245px;
+    }
+}
+@media (max-width: 245px){
+    #parcours{
+        margin-left: 0px;
+        width: 225px;
+    }
 }
 
 #minilog {
@@ -540,4 +744,10 @@ h2 {
 p {
     font-family: Garamond;
     font-weight: normal;
+    font-size: 20px;
+}
+
+#text2{
+
+    margin-top: 50px;
 }

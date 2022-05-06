@@ -501,8 +501,8 @@ section{
     .arrow_box {
         margin-top: 10px;
         float: left;
-        margin-right: 88px;
-        margin-left: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 615px) {
@@ -510,7 +510,7 @@ section{
         margin-top: 10px;
         float: left;
         right: 100px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 535px) {
@@ -542,15 +542,16 @@ section{
         margin-top: 10px;
         float: left;
         right: 100px;
-        margin-left: 60px;
+        margin-left: 0px;
+        margin-right: -2px;
     }
 }
 @media (max-width: 400px) {
     .arrow_box {
         margin-top: 10px;
         float: left;
-        right: 100px;
-        margin-left: 80px;
+        margin-right: -41px;
+        margin-left: 0px;
     }
 }
 
@@ -618,7 +619,7 @@ h1{
 }
 @media (max-width: 430px){
     h1{
-        margin-left: 0px;
+        margin-left: 74px;
     }
 }
 
@@ -1013,7 +1014,22 @@ p {
 }
 @media (max-width: 470px){
     .album{
-        margin-left: 17px;
+        margin-left: 8px;
+    }
+}
+@media (max-width: 400px){
+    .album{
+        margin-left: 12px;
+    }
+}
+@media (max-width: 380px){
+    .album{
+        margin-left: 8px;
+    }
+}
+@media (max-width: 370px){
+    .album{
+        margin-left: 0px;
     }
 }
 
