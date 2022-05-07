@@ -3961,6 +3961,9 @@ a:hover .liquid {
 }
 
 @media (max-width: 355px) {
+    .buttons{
+        margin-top: 50px;
+    }
 
     #row{
         margin-left: 150px;
