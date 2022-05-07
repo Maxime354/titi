@@ -486,6 +486,7 @@ a:hover .liquid {
     }
     #logo{
         width: 380px;
+        margin-left: -25px;
     }
     .header-title{
         margin-top: 60px;

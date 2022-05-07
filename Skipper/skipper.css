@@ -321,20 +321,24 @@ a:hover .liquid {
 @media (max-width: 355px) {
 
     #row{
-        margin-left: 0px;
+        margin-left: 140px;
     }
     #row1{
-        margin-left: 200px;
-        margin-top: 0px;
+        margin-left: 140px;
+        margin-top: 60px;
     }
     #row2{
         margin-top: 150px;
-        margin-left: 0px;
+        margin-left: 140px;
         top: -190px;
     }
     #row3{
-        margin-left: 200px;
-        top: -300px;
+        margin-left: 140px;
+        top: -240px;
+    }
+    #logo{
+        width: 330px;
+        margin-left: -25px;
     }
 }
 
@@ -518,7 +522,7 @@ section{
         margin-top: 10px;
         float: left;
         right: 100px;
-        margin-left: 80px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 500px) {
@@ -526,7 +530,7 @@ section{
         margin-top: 10px;
         float: left;
         right: 100px;
-        margin-left: 60px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 480px) {
@@ -534,7 +538,7 @@ section{
         margin-top: 10px;
         float: left;
         right: 100px;
-        margin-left: 60px;
+        margin-left: 0px;
     }
 }
 @media (max-width: 460px) {
