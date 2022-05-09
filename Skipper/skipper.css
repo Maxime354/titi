@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     background-image: url("../img/sunset.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     margin-right: 100px;
 }
 
@@ -1072,7 +1072,7 @@ p {
     background-image: url(../img/skipper3.jpg);
 }
 #img4 {
-    background-image: url(../img/skipper4.jpeg);
+    background-image: url(../img/skipper4.png);
 
 }
 #img5 {
