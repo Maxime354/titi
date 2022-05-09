@@ -340,7 +340,7 @@ a:hover .liquid {
         top: -240px;
     }
     #logo{
-        width: 330px;
+        width: 350px;
         margin-left: -25px;
     }
 }
@@ -495,6 +495,11 @@ section{
     -o-animation: fadeIn 3s;
     margin-right: -100px;
 }
+@media (min-width: 1350px){
+    .arrow_box{
+        margin-top: 82px;
+    }
+}
 @media (max-width: 1320px) {
     .arrow_box {
         margin-top: 10px;
@@ -551,6 +556,14 @@ section{
         right: 100px;
         margin-left: 0px;
         margin-right: -2px;
+    }
+}@media (max-width: 420px) {
+    .arrow_box {
+        margin-top: 10px;
+        float: left;
+        right: 100px;
+        margin-left: 0px;
+        margin-right: -100px;
     }
 }
 @media (max-width: 400px) {
@@ -1174,6 +1187,12 @@ p {
     .parallax_img{
         background-size: 175%;
     }
+    #img4{
+        background-size: 218%;
+    }
+    #img8{
+        background-size: 218%;
+    }
 }
 @media (max-width: 407px){
     .parallax_img{
@@ -1189,15 +1208,42 @@ p {
     .parallax_img{
         background-size: 190%;
     }
+    #img4{
+        background-size: 180%;
+    }
+    #img9{
+        background-size: 150%;
+    }
+    #img1{
+        background-size: 140%;
+    }
 }
 @media (max-width: 373px){
     .parallax_img{
         background-size: 195%;
     }
+    #img4{
+        background-size: 180%;
+    }
+    #img9{
+        background-size: 150%;
+    }
+    #img1{
+        background-size: 140%;
+    }
 }
 @media (max-width: 364px){
     .parallax_img{
         background-size: 200%;
+    }
+    #img4{
+        background-size: 200%;
+    }
+    #img9{
+        background-size: 150%;
+    }
+    #img1{
+        background-size: 155%;
     }
 }
 @media (max-width: 355px){
@@ -1209,6 +1255,7 @@ p {
 .parallax{
 
     margin-right: -100px;
+    background-color: #071723;
 }
 
 @media (max-width: 1320px){
@@ -1238,4 +1285,15 @@ p {
         position: relative;
     }
 }
+@media (max-width: 300px){
+    .parallax{
+        margin-top: 760px;
+        position: relative;
+        margin-right: -120px;
+    }
+    .arrow_box{
+        margin-right: -120px;
+    }
+}
+
 
