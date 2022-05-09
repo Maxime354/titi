@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
 
 body {
-
-    background-image: url("../img/sunset.jpeg");
+    margin-bottom: 0;
+    min-height: 100vh;
     overflow-x: hidden;
+    background-image: url("../img/sunset.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin-right: 100px;
 }
+
+
 #logo1{
     width: 500px;
     height: 200px
@@ -490,13 +493,13 @@ section{
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
-    margin-left: 0px;
+    margin-right: -100px;
 }
 @media (max-width: 1320px) {
     .arrow_box {
         margin-top: 10px;
         float: left;
-        margin-right: 100px;
+        margin-right: -100px;
         margin-left: 2px;
     }
 }
@@ -505,7 +508,7 @@ section{
     .arrow_box {
         margin-top: 10px;
         float: left;
-        margin-right: 0px;
+        margin-right: -100px;
         margin-left: 0px;
     }
 }
@@ -554,7 +557,7 @@ section{
     .arrow_box {
         margin-top: 10px;
         float: left;
-        margin-right: -41px;
+        margin-right: -100px;
         margin-left: 0px;
     }
 }
@@ -1058,3 +1061,181 @@ p {
     border-left-width: 60px;
     border-right-width: 60px;
 }
+
+#img1 {
+    background-image: url(../img/skipper1.jpg);
+}
+#img2 {
+    background-image: url(../img/skipper2.jpg);
+}
+#img3 {
+    background-image: url(../img/skipper3.jpg);
+}
+#img4 {
+    background-image: url(../img/skipper4.jpeg);
+
+}
+#img5 {
+    background-image: url(../img/skipper5.jpg);
+}
+#img6 {
+    background-image: url(../img/skipper6.jpg);
+}
+#img7 {
+    background-image: url(../img/skipper7.jpg);
+}
+#img8 {
+    background-image: url(../img/skipper8.jpeg);
+}
+#img9 {
+    background-image: url(../img/skipper9.jpeg);
+}
+
+
+.parallax_img{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../img/skipper1.jpg");
+}
+
+@media (max-width: 795px){
+    .parallax_img{
+        background-size: 105%;
+    }
+}
+@media (max-width: 760px){
+    .parallax_img{
+        background-size: 110%;
+    }
+}
+@media (max-width: 725px){
+    .parallax_img{
+        background-size: 115%;
+    }
+}
+@media (max-width: 690px){
+    .parallax_img{
+        background-size: 120%;
+    }
+}
+@media (max-width: 665px){
+    .parallax_img{
+        background-size: 125%;
+    }
+}
+@media (max-width: 640px){
+    .parallax_img{
+        background-size: 130%;
+    }
+}
+@media (max-width: 615px){
+    .parallax_img{
+        background-size: 135%;
+    }
+}
+@media (max-width: 590px){
+    .parallax_img{
+        background-size: 140%;
+    }
+}
+@media (max-width: 565px){
+    .parallax_img{
+        background-size: 145%;
+    }
+}
+@media (max-width: 545px){
+    .parallax_img{
+        background-size: 150%;
+    }
+}
+@media (max-width: 528px){
+    .parallax_img{
+        background-size: 155%;
+    }
+}
+@media (max-width: 510px){
+    .parallax_img{
+        background-size: 160%;
+    }
+}
+@media (max-width: 443px){
+    .parallax_img{
+        background-size: 165%;
+    }
+}
+@media (max-width: 429px){
+    .parallax_img{
+        background-size: 170%;
+    }
+}
+@media (max-width: 417px){
+    .parallax_img{
+        background-size: 175%;
+    }
+}
+@media (max-width: 407px){
+    .parallax_img{
+        background-size: 180%;
+    }
+}
+@media (max-width: 395px){
+    .parallax_img{
+        background-size: 185%;
+    }
+}
+@media (max-width: 380px){
+    .parallax_img{
+        background-size: 190%;
+    }
+}
+@media (max-width: 373px){
+    .parallax_img{
+        background-size: 195%;
+    }
+}
+@media (max-width: 364px){
+    .parallax_img{
+        background-size: 200%;
+    }
+}
+@media (max-width: 355px){
+    .parallax_img{
+        background-size: 220%;
+    }
+}
+
+.parallax{
+
+    margin-right: -100px;
+}
+
+@media (max-width: 1320px){
+    .parallax{
+        margin-top: 300px
+    }
+}
+@media (max-width: 1190px){
+    .parallax{
+        margin-top: 350px
+    }
+}
+@media (max-width: 1100px){
+    .parallax{
+        margin-top: 360px
+    }
+}
+@media (max-width: 1000px){
+    .parallax{
+        margin-top: 360px
+    }
+}
+
+@media (max-width: 460px){
+    .parallax{
+        margin-top: 760px;
+        position: relative;
+    }
+}
+
