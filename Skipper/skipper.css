@@ -1114,6 +1114,10 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url("../img/skipper1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 @media (max-width: 795px){
