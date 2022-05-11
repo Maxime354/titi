@@ -1089,7 +1089,6 @@ p {
 }
 #img4 {
     background-image: url(../img/skipper4.png);
-
 }
 #img5 {
     background-image: url(../img/skipper5.jpg);
@@ -1118,80 +1117,96 @@ p {
     -moz-background-size: cover;
     width: 100vw;
     height: 100vh;
+    margin-top: -271px;
 }
 
 @media (max-width: 795px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 105%;
     }
 }
 @media (max-width: 760px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 110%;
     }
 }
 @media (max-width: 725px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 115%;
     }
 }
 @media (max-width: 690px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 120%;
     }
 }
 @media (max-width: 665px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 125%;
     }
 }
 @media (max-width: 640px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 130%;
     }
 }
 @media (max-width: 615px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 135%;
     }
 }
 @media (max-width: 590px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 140%;
     }
 }
 @media (max-width: 565px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 145%;
     }
 }
 @media (max-width: 545px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 150%;
     }
 }
 @media (max-width: 528px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 155%;
     }
 }
 @media (max-width: 510px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 160%;
     }
 }
 @media (max-width: 443px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 165%;
     }
 }
 @media (max-width: 429px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 170%;
     }
 }
 @media (max-width: 417px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 175%;
     }
     #img4{
@@ -1203,16 +1218,19 @@ p {
 }
 @media (max-width: 407px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 180%;
     }
 }
 @media (max-width: 395px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 185%;
     }
 }
 @media (max-width: 380px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 190%;
     }
     #img4{
@@ -1227,6 +1245,7 @@ p {
 }
 @media (max-width: 373px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 195%;
     }
     #img4{
@@ -1241,6 +1260,7 @@ p {
 }
 @media (max-width: 364px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 200%;
     }
     #img4{
@@ -1255,6 +1275,7 @@ p {
 }
 @media (max-width: 355px){
     .parallax_img{
+        background-attachment: unset;
         background-size: 220%;
     }
 }

@@ -4142,600 +4142,656 @@ body.pause {
         min-height: 1900px;
 
     }
+}
+    @media (min-width: 308px) {
+        .sky {
+            min-height: 1900px;
 
-@media (min-width: 308px) {
-    .sky {
-        min-height: 1900px;
+        }
 
+        .orbit {
+            width: 700px;
+            height: 700px;
+            margin-top: 600px;
+            --animation-speed: 68s;
+        }
+
+        .sky__midnight {
+            --animation-speed: 68s;
+        }
+
+        .sky__dawn {
+            --animation-speed: 68s;
+        }
+
+        .sky__dusk {
+            --animation-speed: 68s;
+        }
+
+        .sky__noon {
+            --animation-speed: 68s;
+        }
+
+        .sky__phase {
+            --animation-speed: 68s;
+        }
     }
-    .orbit {
-        width: 700px;
-        height: 700px;
+    @media (min-width: 700px) {
+        .orbit {
+            top: 200px;
+        }
+    }
+    @media (min-width: 800px) {
+        .orbit {
+            top: 400px;
+        }
+    }
+
+    @media (min-width: 940px) {
+        .orbit {
+            width: 800px;
+            height: 800px;
+            --animation-speed: 68s;
+            margin-top: 300px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        body {
+            --animation-speed: 68s;
+        }
+
+        .orbit {
+            width: 1000px;
+            height: 1000px;
+            margin-top: 600px;
+
+        }
+    }
+
+    @media (min-width: 1500px) {
+        body {
+            --animation-speed: 68s;
+        }
+
+        .orbit {
+            width: 1300px;
+            height: 1300px;
+        }
+    }
+
+    .sun {
+        position: absolute;
+        top: -40px;
+        left: -40px;
+        width: 80px;
+        height: 80px;
+        background-color: rgb(254, 215, 102);
+        border-radius: 50%;
+        box-shadow: 0 0 14px 14px rgba(254, 215, 102, 0.2);
+    }
+
+    .moon {
+        position: absolute;
+        bottom: -30px;
+        right: -40px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 7px 7px rgba(255, 255, 255, 0.2);
+    }
+
+    #sky__stars > div {
+        width: 8px;
+        height: 3px;
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    #sky__stars1 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 900px;
         margin-top: 600px;
-        --animation-speed: 68s;
     }
-    .sky__midnight {
-        --animation-speed: 68s;
-    }
-    .sky__dawn {
-        --animation-speed: 68s;
-    }
-    .sky__dusk {
-        --animation-speed: 68s;
-    }
-    .sky__noon {
-        --animation-speed: 68s;
-    }
-    .sky__phase {
-        --animation-speed: 68s;
-    }
-}
-@media (min-width: 700px) {
-    .orbit{
-        top: 200px;
-    }
-}
-@media (min-width: 800px) {
-    .orbit{
-        top: 400px;
-    }
-}
 
-@media (min-width: 940px) {
-    .orbit {
-        width: 800px;
-        height: 800px;
-        --animation-speed: 68s;
+    #sky__stars2 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+
+    #sky__stars3 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 600px;
         margin-top: 300px;
     }
-}
 
-@media (min-width: 1200px) {
-    body {
-        --animation-speed: 68s;
+    #sky__stars4 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 500px;
     }
-    .orbit {
-        width: 1000px;
-        height: 1000px;
+
+    #sky__stars5 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 400px;
         margin-top: 600px;
-
     }
-}
 
-@media (min-width: 1500px) {
-    body {
-        --animation-speed: 68s;
-    }
-    .orbit {
-        width: 1300px;
-        height: 1300px;
-    }
-}
-
-.sun {
-    position: absolute;
-    top: -40px;
-    left: -40px;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(254, 215, 102);
-    border-radius: 50%;
-    box-shadow: 0 0 14px 14px rgba(254, 215, 102, 0.2);
-}
-
-.moon {
-    position: absolute;
-    bottom: -30px;
-    right: -40px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #fff;
-    box-shadow: 0 0 7px 7px rgba(255, 255, 255, 0.2);
-}
-
-#sky__stars > div {
-    width: 8px;
-    height: 3px;
-    margin-left: 500px;
-    margin-right: 500px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-}
-#sky__stars1 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 900px;
-    margin-top: 600px;
-}
-#sky__stars2 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 200px;
-}
-#sky__stars3 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 300px;
-}
-#sky__stars4 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 500px;
-}
-#sky__stars5 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 400px;
-    margin-top: 600px;
-}#sky__stars6 {
-     width: 3px;
-     height: 3px;
-     background-color: #fff;
-     border-radius: 50%;
-     position: absolute;
-     margin-left: 948px;
-     margin-top: 200px;
- }
-#sky__stars7 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 308px;
-    margin-top: 335px;
-}
-#sky__stars8 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 150px;
-}
-#sky__stars9 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 1200px;
-    margin-top: 350px;
-}
-#sky__stars10 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 1000px;
-    margin-top: 450px;
-}
-#sky__stars11 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 511px;
-    margin-top: 105px;
-}
-#sky__stars12 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 750px;
-    margin-top: 222px;
-}
-#sky__stars13 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 763px;
-    margin-top: 450px;
-}
-#sky__stars14 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 1200px;
-    margin-top: 700px;
-}
-#sky__stars15 {
-    width: 3px;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 1300px;
-    margin-top: 140px;
-}
-
-#toggle-animation:hover {
-    background-color: rgb(61, 0, 21);
-    cursor: pointer;
-}
-
-#mini-logo{
-    position : fixed;
-
-}
-
-#fb{
-    position: absolute;
-    left: -20px;
-    margin-top: 180px;
-    height: 200px;
-    width: 360px;
-}
-#mail{
-    position: absolute;
-    left: 1150px;
-    margin-top: 200px;
-    height: 160px;
-    width: 160px;
-    top: 90px
-}
-#insta{
-    position: absolute;
-    left: 590px;
-    margin-top: 180px;
-    height: 200px;
-    width: 200px;
-    top: 90px
-}
-
-a { display: inline-block; margin: -2em;}
-
-
-@media (max-width: 2500px){
-    #fb{
-        left: 70px;
-    }
-    #insta{
-        margin-left: 40px;
+    #sky__stars6 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 948px;
         margin-top: 200px;
     }
-    #mail{
-        margin-left: -10px;
-        margin-top: 220px;
+
+    #sky__stars7 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 308px;
+        margin-top: 335px;
     }
-}
-@media (max-width: 1600px){
-    #fb{
-        left: 50px;
+
+    #sky__stars8 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 150px;
     }
-    #insta{
-        margin-left: 20px;
+
+    #sky__stars9 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 1200px;
+        margin-top: 350px;
+    }
+
+    #sky__stars10 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 1000px;
+        margin-top: 450px;
+    }
+
+    #sky__stars11 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 511px;
+        margin-top: 105px;
+    }
+
+    #sky__stars12 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 750px;
+        margin-top: 222px;
+    }
+
+    #sky__stars13 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 763px;
+        margin-top: 450px;
+    }
+
+    #sky__stars14 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 1200px;
+        margin-top: 700px;
+    }
+
+    #sky__stars15 {
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 1300px;
+        margin-top: 140px;
+    }
+
+    #toggle-animation:hover {
+        background-color: rgb(61, 0, 21);
+        cursor: pointer;
+    }
+
+    #mini-logo {
+        position: fixed;
+
+    }
+
+    #fb {
+        position: absolute;
+        left: -20px;
+        margin-top: 180px;
+        height: 200px;
+        width: 360px;
+    }
+
+    #mail {
+        position: absolute;
+        left: 1150px;
         margin-top: 200px;
+        height: 160px;
+        width: 160px;
+        top: 90px
     }
-    #mail{
-        margin-left: -30px;
-        margin-top: 220px;
-    }
-}
-@media (max-width: 1500px){
-    #fb{
-        left: 30px;
-    }
-    #insta{
-        margin-left: 0px;
-        margin-top: 200px;
-    }
-    #mail{
-        margin-left: -50px;
-        margin-top: 220px;
-    }
-}
-@media (max-width: 1400px){
-    #fb{
-        left: 10px;
-    }
-    #insta{
-        margin-left: -50px;
-        margin-top: 200px;
-    }
-    #mail{
-        margin-left: -100px;
-        margin-top: 220px;
-    }
-}
 
-@media (max-width: 1320px){
-    #insta{
-        margin-left: -100px;
-        margin-top: 200px;
+    #insta {
+        position: absolute;
+        left: 590px;
+        margin-top: 180px;
+        height: 200px;
+        width: 200px;
+        top: 90px
     }
-    #mail{
-        margin-left: -200px;
-        margin-top: 220px;
-    }
-}
 
-@media (max-width: 1200px){
-    #insta{
-        margin-left: -220px;
-        margin-top: 200px;
+    a {
+        display: inline-block;
+        margin: -2em;
     }
-    #mail{
-        margin-left: -450px;
-        margin-top: 220px;
-    }
-}
-@media (max-width: 860px){
-    #insta{
-        margin-left: -300px;
-        margin-top: 200px;
-    }
-    #mail{
-        margin-left: -650px;
-        margin-top: 220px;
-    }
-}
-@media (max-width: 675px){
-    #fb{
-        margin-left: -110px;
-    }
-    #insta{
-        margin-left: -410px;
-        margin-top: 190px;
-    }
-    #mail{
-        margin-left: -750px;
-        margin-top: 210px;
-    }
-}
-@media (max-width: 555px){
-    #fb{
-        margin-left: 80px;
-    }
-    #insta{
-        margin-left: -425px;
-        margin-top: 390px;
-    }
-    #mail{
-        margin-top: 580px;
-        margin-left: -960px;
-
-    }
-    .contact{
-        margin-top: 20px;
-    }
-}
-@media (max-width: 490px){
-
-    #fb{
-        margin-left: 20px;
-    }
-    #insta{
-        margin-left: -482px;
-        margin-top: 395px;
-    }
-    #mail{
-        margin-top: 590px;
-        margin-left: -1020px;
-
-    }
-}
-@media (max-width: 390px){
-
-    #fb{
-        margin-left: 0px;
-    }
-    #insta{
-        margin-left: -505px;
-        margin-top: 390px;
-    }
-    #mail{
-        margin-top: 580px;
-        margin-left: -1045px;
-
-    }
-}
-@media (max-width: 320px){
-
-    #fb{
-        margin-left: -40px;
-    }
-    #insta{
-        margin-left: -540px;
-        margin-top: 400px;
-    }
-    #mail{
-        margin-top: 600px;
-        margin-left: -1075px;
-
-    }
-}
 
 
-@keyframes swing {
-    15% {
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px);
-    }
-    30% {
-        -webkit-transform: translateY(-5px);
-        transform: translateY(-5px);
-    }
-    50% {
-        -webkit-transform: translateY(3px);
-        transform: translateY(3px);
-    }
-    65% {
-        -webkit-transform: translateY(-3px);
-        transform: translateY(-3px);
-    }
-    80% {
-        -webkit-transform: translateY(2px);
-        transform: translateY(2px);
-    }
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-.swing:hover
-{
-    -webkit-animation: swing 2s ease;
-    animation: swing 2s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
+    @media (max-width: 2500px) {
+        #fb {
+            left: 70px;
+        }
 
-#contentCloud {
-    position: relative;
-    width:100%;
-    height: 740px;
-    font-weight: 900;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    bottom: 100px;
-    padding: 0;
-    z-index: 1;
-}
+        #insta {
+            margin-left: 40px;
+            margin-top: 200px;
+        }
 
-#cloud1 {
-    z-index: 1;
-    position: absolute;
-    left: 100px;
-    font-size: 4em;
-    color: #f6f6f6;
-    animation: moveCloud 80s linear infinite;
-    -webkit-animation: moveCloud 80s linear infinite;
-    -moz-animation: moveCloud 80s linear infinite;
-    top: 100px;
-    opacity: 0.7;
-}
-#cloud2 {
-    height: 400px;
-    width: 400px;
-    z-index: 4;
-    position: absolute;
-    left:-20px;
-    top:200px;
-    font-size: 1em;
-    font-weight: 900;
-    color: #ffffff;
-    animation-delay:7s;
-    -webkit-animation-delay:4s;
-    -moz-animation-delay: 7s;
-    animation: moveCloud 50s ease-in-out infinite;
-    -webkit-animation: moveCloud 50s ease-in-out infinite;
-    -moz-animation: moveCloud 50s ease-in-out infinite;
-    opacity: 0.7;
-}
-#cloud3 {
-    z-index: 1;
-    position: absolute;
-    left: -250px;
-    top: 12em;
-    font-size: 2.5em;
-    color: #a8e4ec;
-    animation: moveCloud 55s ease-out infinite;
-    -webkit-animation: moveCloud 55s ease-out infinite;
-    -moz-animation: moveCloud 55s ease-out infinite;
-    opacity: 0.7;
-}
-#cloud4 {
+        #mail {
+            margin-left: -10px;
+            margin-top: 220px;
+        }
+    }
+    @media (max-width: 1600px) {
+        #fb {
+            left: 50px;
+        }
 
-    z-index: 2;
-    position: absolute;
-    left:-10px;
-    top:1em;
-    font-size: 2em;
-    font-weight: 900;
-    color: #999;
-    animation-delay:1s;
-    -webkit-animation-delay:1s;
-    -moz-animation-delay: 1s;
-    animation: moveCloud 50s ease-in-out infinite;
-    -webkit-animation: moveCloud 50s ease-in-out infinite;
-    -moz-animation: moveCloud 50s ease-in-out infinite;
-    opacity: 0.7;
-}
-#cloud5 {
-    z-index: 2;
-    position: absolute;
-    left: -100px;
-    top:2.8em;
-    font-size: 2.5em;
-    font-weight: 900;
-    color: #bababa;
-    animation: moveCloud 70s ease-out infinite;
-    -webkit-animation: moveCloud 70s ease-out infinite;
-    -moz-animation: moveCloud 70s ease-out infinite;
-    opacity: 0.7;
-}
-#cloud6 {
-    z-index: 2;
-    position: absolute;
-    left:-40px;
-    top:0.5em;
-    font-size: 1.8em;
-    font-weight: 900;
-    color: #cacaca;
-    animation-delay:4s;
-    -webkit-animation-delay:4s;
-    -moz-animation-delay: 4s;
-    animation: moveCloud 55s ease-in infinite;
-    -webkit-animation: moveCloud 55s ease-in infinite;
-    -moz-animation: moveCloud 55s ease-in infinite;
-}
+        #insta {
+            margin-left: 20px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -30px;
+            margin-top: 220px;
+        }
+    }
+    @media (max-width: 1500px) {
+        #fb {
+            left: 30px;
+        }
+
+        #insta {
+            margin-left: 0px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -50px;
+            margin-top: 220px;
+        }
+    }
+    @media (max-width: 1400px) {
+        #fb {
+            left: 10px;
+        }
+
+        #insta {
+            margin-left: -50px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -100px;
+            margin-top: 220px;
+        }
+    }
+
+    @media (max-width: 1320px) {
+        #insta {
+            margin-left: -100px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -200px;
+            margin-top: 220px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        #insta {
+            margin-left: -220px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -450px;
+            margin-top: 220px;
+        }
+    }
+    @media (max-width: 860px) {
+        #insta {
+            margin-left: -300px;
+            margin-top: 200px;
+        }
+
+        #mail {
+            margin-left: -650px;
+            margin-top: 220px;
+        }
+    }
+    @media (max-width: 675px) {
+        #fb {
+            margin-left: -110px;
+        }
+
+        #insta {
+            margin-left: -410px;
+            margin-top: 190px;
+        }
+
+        #mail {
+            margin-left: -750px;
+            margin-top: 210px;
+        }
+    }
+    @media (max-width: 555px) {
+        #fb {
+            margin-left: 80px;
+        }
+
+        #insta {
+            margin-left: -425px;
+            margin-top: 390px;
+        }
+
+        #mail {
+            margin-top: 580px;
+            margin-left: -960px;
+
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+    }
+    @media (max-width: 490px) {
+
+        #fb {
+            margin-left: 20px;
+        }
+
+        #insta {
+            margin-left: -482px;
+            margin-top: 395px;
+        }
+
+        #mail {
+            margin-top: 590px;
+            margin-left: -1020px;
+
+        }
+    }
+    @media (max-width: 390px) {
+
+        #fb {
+            margin-left: 0px;
+        }
+
+        #insta {
+            margin-left: -505px;
+            margin-top: 390px;
+        }
+
+        #mail {
+            margin-top: 580px;
+            margin-left: -1045px;
+
+        }
+    }
+    @media (max-width: 320px) {
+
+        #fb {
+            margin-left: -40px;
+        }
+
+        #insta {
+            margin-left: -540px;
+            margin-top: 400px;
+        }
+
+        #mail {
+            margin-top: 600px;
+            margin-left: -1075px;
+
+        }
+    }
 
 
-@keyframes moveCloud {
-    0% {
-        transform: translate(1450px);
+    @keyframes swing {
+        15% {
+            -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+        }
+        30% {
+            -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+        }
+        50% {
+            -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+        }
+        65% {
+            -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+        }
+        80% {
+            -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
     }
-    100% {
-        transform: translate(-650px);
+    .swing:hover {
+        -webkit-animation: swing 2s ease;
+        animation: swing 2s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
     }
-}
-@-webkit-keyframes moveCloud {
-    0% {
-        transform: translate(1450px);
+
+    #contentCloud {
+        position: relative;
+        width: 100%;
+        height: 740px;
+        font-weight: 900;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        bottom: 100px;
+        padding: 0;
+        z-index: 1;
     }
-    100% {
-        transform: translate(-650px);
+
+    #cloud1 {
+        z-index: 1;
+        position: absolute;
+        left: 100px;
+        font-size: 4em;
+        color: #f6f6f6;
+        animation: moveCloud 80s linear infinite;
+        -webkit-animation: moveCloud 80s linear infinite;
+        -moz-animation: moveCloud 80s linear infinite;
+        top: 100px;
+        opacity: 0.7;
     }
-}
-@-moz-keyframes moveCloud {
-    0% {
-        transform: translate(1450px);
+
+    #cloud2 {
+        height: 400px;
+        width: 400px;
+        z-index: 4;
+        position: absolute;
+        left: -20px;
+        top: 200px;
+        font-size: 1em;
+        font-weight: 900;
+        color: #ffffff;
+        animation-delay: 7s;
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay: 7s;
+        animation: moveCloud 50s ease-in-out infinite;
+        -webkit-animation: moveCloud 50s ease-in-out infinite;
+        -moz-animation: moveCloud 50s ease-in-out infinite;
+        opacity: 0.7;
     }
-    100% {
-        transform: translate(-650px);
+
+    #cloud3 {
+        z-index: 1;
+        position: absolute;
+        left: -250px;
+        top: 12em;
+        font-size: 2.5em;
+        color: #a8e4ec;
+        animation: moveCloud 55s ease-out infinite;
+        -webkit-animation: moveCloud 55s ease-out infinite;
+        -moz-animation: moveCloud 55s ease-out infinite;
+        opacity: 0.7;
     }
-}
+
+    #cloud4 {
+
+        z-index: 2;
+        position: absolute;
+        left: -10px;
+        top: 1em;
+        font-size: 2em;
+        font-weight: 900;
+        color: #999;
+        animation-delay: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        animation: moveCloud 50s ease-in-out infinite;
+        -webkit-animation: moveCloud 50s ease-in-out infinite;
+        -moz-animation: moveCloud 50s ease-in-out infinite;
+        opacity: 0.7;
+    }
+
+    #cloud5 {
+        z-index: 2;
+        position: absolute;
+        left: -100px;
+        top: 2.8em;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #bababa;
+        animation: moveCloud 70s ease-out infinite;
+        -webkit-animation: moveCloud 70s ease-out infinite;
+        -moz-animation: moveCloud 70s ease-out infinite;
+        opacity: 0.7;
+    }
+
+    #cloud6 {
+        z-index: 2;
+        position: absolute;
+        left: -40px;
+        top: 0.5em;
+        font-size: 1.8em;
+        font-weight: 900;
+        color: #cacaca;
+        animation-delay: 4s;
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay: 4s;
+        animation: moveCloud 55s ease-in infinite;
+        -webkit-animation: moveCloud 55s ease-in infinite;
+        -moz-animation: moveCloud 55s ease-in infinite;
+    }
+
+
+    @keyframes moveCloud {
+        0% {
+            transform: translate(1450px);
+        }
+        100% {
+            transform: translate(-650px);
+        }
+    }
+    @-webkit-keyframes moveCloud {
+        0% {
+            transform: translate(1450px);
+        }
+        100% {
+            transform: translate(-650px);
+        }
+    }
+    @-moz-keyframes moveCloud {
+        0% {
+            transform: translate(1450px);
+        }
+        100% {
+            transform: translate(-650px);
+        }
+    }
+
 
